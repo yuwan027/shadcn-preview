@@ -27,5 +27,5 @@ dist-ssr
 # storybook-static is built by GitHub Actions
 storybook-static
 .claude
-blocks
-www.shadcnblocks.com.new
+/blocks
+/www.shadcnblocks.com.new
