@@ -1,17 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Team10 from '@/components/blocks/team/team10';
-import Team11 from '@/components/blocks/team/team11';
-import Team12 from '@/components/blocks/team/team12';
-import Team13 from '@/components/blocks/team/team13';
-import Team15 from '@/components/blocks/team/team15';
-import Team3 from '@/components/blocks/team/team3';
-import Team4 from '@/components/blocks/team/team4';
-import Team5 from '@/components/blocks/team/team5';
-import Team6 from '@/components/blocks/team/team6';
-import Team7 from '@/components/blocks/team/team7';
-import Team8 from '@/components/blocks/team/team8';
-import Team9 from '@/components/blocks/team/team9';
+import Component0 from '@/components/blocks/team/team10';
+import Component1 from '@/components/blocks/team/team11';
+import Component2 from '@/components/blocks/team/team12';
+import Component3 from '@/components/blocks/team/team13';
+import Component4 from '@/components/blocks/team/team15';
+import Component5 from '@/components/blocks/team/team3';
+import Component6 from '@/components/blocks/team/team4';
+import Component7 from '@/components/blocks/team/team5';
+import Component8 from '@/components/blocks/team/team6';
+import Component9 from '@/components/blocks/team/team7';
+import Component10 from '@/components/blocks/team/team8';
+import Component11 from '@/components/blocks/team/team9';
 
 const meta: Meta = {
   title: 'Blocks/Team',
@@ -20,63 +20,63 @@ const meta: Meta = {
 
 export default meta;
 
-export const Team10: StoryObj = {
-  name: 'Team10',
-  render: () => <Team10 />,
+export const StoryTeam10: StoryObj = {
+  name: 'team 10',
+  render: () => <Component0 />,
 };
 
-export const Team11: StoryObj = {
-  name: 'Team11',
-  render: () => <Team11 />,
+export const StoryTeam11: StoryObj = {
+  name: 'team 11',
+  render: () => <Component1 />,
 };
 
-export const Team12: StoryObj = {
-  name: 'Team12',
-  render: () => <Team12 />,
+export const StoryTeam12: StoryObj = {
+  name: 'team 12',
+  render: () => <Component2 />,
 };
 
-export const Team13: StoryObj = {
-  name: 'Team13',
-  render: () => <Team13 />,
+export const StoryTeam13: StoryObj = {
+  name: 'team 13',
+  render: () => <Component3 />,
 };
 
-export const Team15: StoryObj = {
-  name: 'Team15',
-  render: () => <Team15 />,
+export const StoryTeam15: StoryObj = {
+  name: 'team 15',
+  render: () => <Component4 />,
 };
 
-export const Team3: StoryObj = {
-  name: 'Team3',
-  render: () => <Team3 />,
+export const StoryTeam3: StoryObj = {
+  name: 'team 3',
+  render: () => <Component5 />,
 };
 
-export const Team4: StoryObj = {
-  name: 'Team4',
-  render: () => <Team4 />,
+export const StoryTeam4: StoryObj = {
+  name: 'team 4',
+  render: () => <Component6 />,
 };
 
-export const Team5: StoryObj = {
-  name: 'Team5',
-  render: () => <Team5 />,
+export const StoryTeam5: StoryObj = {
+  name: 'team 5',
+  render: () => <Component7 />,
 };
 
-export const Team6: StoryObj = {
-  name: 'Team6',
-  render: () => <Team6 />,
+export const StoryTeam6: StoryObj = {
+  name: 'team 6',
+  render: () => <Component8 />,
 };
 
-export const Team7: StoryObj = {
-  name: 'Team7',
-  render: () => <Team7 />,
+export const StoryTeam7: StoryObj = {
+  name: 'team 7',
+  render: () => <Component9 />,
 };
 
-export const Team8: StoryObj = {
-  name: 'Team8',
-  render: () => <Team8 />,
+export const StoryTeam8: StoryObj = {
+  name: 'team 8',
+  render: () => <Component10 />,
 };
 
-export const Team9: StoryObj = {
-  name: 'Team9',
-  render: () => <Team9 />,
+export const StoryTeam9: StoryObj = {
+  name: 'team 9',
+  render: () => <Component11 />,
 };
 

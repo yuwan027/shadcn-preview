@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import OfferModal1 from '@/components/blocks/offer-modal/offer-modal1';
-import OfferModal4 from '@/components/blocks/offer-modal/offer-modal4';
-import OfferModal5 from '@/components/blocks/offer-modal/offer-modal5';
+import Component0 from '@/components/blocks/offer-modal/offer-modal1';
+import Component1 from '@/components/blocks/offer-modal/offer-modal4';
+import Component2 from '@/components/blocks/offer-modal/offer-modal5';
 
 const meta: Meta = {
   title: 'Blocks/Offer Modal',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const OfferModal1: StoryObj = {
-  name: 'Offer Modal1',
-  render: () => <OfferModal1 />,
+export const StoryOfferModal1: StoryObj = {
+  name: 'offer modal 1',
+  render: () => <Component0 />,
 };
 
-export const OfferModal4: StoryObj = {
-  name: 'Offer Modal4',
-  render: () => <OfferModal4 />,
+export const StoryOfferModal4: StoryObj = {
+  name: 'offer modal 4',
+  render: () => <Component1 />,
 };
 
-export const OfferModal5: StoryObj = {
-  name: 'Offer Modal5',
-  render: () => <OfferModal5 />,
+export const StoryOfferModal5: StoryObj = {
+  name: 'offer modal 5',
+  render: () => <Component2 />,
 };
 

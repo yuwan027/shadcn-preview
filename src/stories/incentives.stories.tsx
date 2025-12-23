@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Incentives1 from '@/components/blocks/incentives/incentives1';
-import Incentives2 from '@/components/blocks/incentives/incentives2';
-import Incentives6 from '@/components/blocks/incentives/incentives6';
-import Incentives7 from '@/components/blocks/incentives/incentives7';
+import Component0 from '@/components/blocks/incentives/incentives1';
+import Component1 from '@/components/blocks/incentives/incentives2';
+import Component2 from '@/components/blocks/incentives/incentives6';
+import Component3 from '@/components/blocks/incentives/incentives7';
 
 const meta: Meta = {
   title: 'Blocks/Incentives',
@@ -12,23 +12,23 @@ const meta: Meta = {
 
 export default meta;
 
-export const Incentives1: StoryObj = {
-  name: 'Incentives1',
-  render: () => <Incentives1 />,
+export const StoryIncentives1: StoryObj = {
+  name: 'incentives 1',
+  render: () => <Component0 />,
 };
 
-export const Incentives2: StoryObj = {
-  name: 'Incentives2',
-  render: () => <Incentives2 />,
+export const StoryIncentives2: StoryObj = {
+  name: 'incentives 2',
+  render: () => <Component1 />,
 };
 
-export const Incentives6: StoryObj = {
-  name: 'Incentives6',
-  render: () => <Incentives6 />,
+export const StoryIncentives6: StoryObj = {
+  name: 'incentives 6',
+  render: () => <Component2 />,
 };
 
-export const Incentives7: StoryObj = {
-  name: 'Incentives7',
-  render: () => <Incentives7 />,
+export const StoryIncentives7: StoryObj = {
+  name: 'incentives 7',
+  render: () => <Component3 />,
 };
 

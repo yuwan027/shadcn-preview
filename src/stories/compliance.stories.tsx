@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Compliance5 from '@/components/blocks/compliance/compliance5';
-import Compliance6 from '@/components/blocks/compliance/compliance6';
-import Compliance7 from '@/components/blocks/compliance/compliance7';
+import Component0 from '@/components/blocks/compliance/compliance5';
+import Component1 from '@/components/blocks/compliance/compliance6';
+import Component2 from '@/components/blocks/compliance/compliance7';
 
 const meta: Meta = {
   title: 'Blocks/Compliance',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const Compliance5: StoryObj = {
-  name: 'Compliance5',
-  render: () => <Compliance5 />,
+export const StoryCompliance5: StoryObj = {
+  name: 'compliance 5',
+  render: () => <Component0 />,
 };
 
-export const Compliance6: StoryObj = {
-  name: 'Compliance6',
-  render: () => <Compliance6 />,
+export const StoryCompliance6: StoryObj = {
+  name: 'compliance 6',
+  render: () => <Component1 />,
 };
 
-export const Compliance7: StoryObj = {
-  name: 'Compliance7',
-  render: () => <Compliance7 />,
+export const StoryCompliance7: StoryObj = {
+  name: 'compliance 7',
+  render: () => <Component2 />,
 };
 

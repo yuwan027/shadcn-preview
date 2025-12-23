@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Awards3 from '@/components/blocks/awards/awards3';
-import Awards4 from '@/components/blocks/awards/awards4';
-import Awards5 from '@/components/blocks/awards/awards5';
+import Component0 from '@/components/blocks/awards/awards3';
+import Component1 from '@/components/blocks/awards/awards4';
+import Component2 from '@/components/blocks/awards/awards5';
 
 const meta: Meta = {
   title: 'Blocks/Awards',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const Awards3: StoryObj = {
-  name: 'Awards3',
-  render: () => <Awards3 />,
+export const StoryAwards3: StoryObj = {
+  name: 'awards 3',
+  render: () => <Component0 />,
 };
 
-export const Awards4: StoryObj = {
-  name: 'Awards4',
-  render: () => <Awards4 />,
+export const StoryAwards4: StoryObj = {
+  name: 'awards 4',
+  render: () => <Component1 />,
 };
 
-export const Awards5: StoryObj = {
-  name: 'Awards5',
-  render: () => <Awards5 />,
+export const StoryAwards5: StoryObj = {
+  name: 'awards 5',
+  render: () => <Component2 />,
 };
 

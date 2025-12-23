@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import ProductGallery1 from '@/components/blocks/product-gallery/product-gallery1';
-import ProductGallery2 from '@/components/blocks/product-gallery/product-gallery2';
-import ProductGallery3 from '@/components/blocks/product-gallery/product-gallery3';
-import ProductGallery4 from '@/components/blocks/product-gallery/product-gallery4';
-import ProductGallery7 from '@/components/blocks/product-gallery/product-gallery7';
+import Component0 from '@/components/blocks/product-gallery/product-gallery1';
+import Component1 from '@/components/blocks/product-gallery/product-gallery2';
+import Component2 from '@/components/blocks/product-gallery/product-gallery3';
+import Component3 from '@/components/blocks/product-gallery/product-gallery4';
+import Component4 from '@/components/blocks/product-gallery/product-gallery7';
 
 const meta: Meta = {
   title: 'Blocks/Product Gallery',
@@ -13,28 +13,28 @@ const meta: Meta = {
 
 export default meta;
 
-export const ProductGallery1: StoryObj = {
-  name: 'Product Gallery1',
-  render: () => <ProductGallery1 />,
+export const StoryProductGallery1: StoryObj = {
+  name: 'product gallery 1',
+  render: () => <Component0 />,
 };
 
-export const ProductGallery2: StoryObj = {
-  name: 'Product Gallery2',
-  render: () => <ProductGallery2 />,
+export const StoryProductGallery2: StoryObj = {
+  name: 'product gallery 2',
+  render: () => <Component1 />,
 };
 
-export const ProductGallery3: StoryObj = {
-  name: 'Product Gallery3',
-  render: () => <ProductGallery3 />,
+export const StoryProductGallery3: StoryObj = {
+  name: 'product gallery 3',
+  render: () => <Component2 />,
 };
 
-export const ProductGallery4: StoryObj = {
-  name: 'Product Gallery4',
-  render: () => <ProductGallery4 />,
+export const StoryProductGallery4: StoryObj = {
+  name: 'product gallery 4',
+  render: () => <Component3 />,
 };
 
-export const ProductGallery7: StoryObj = {
-  name: 'Product Gallery7',
-  render: () => <ProductGallery7 />,
+export const StoryProductGallery7: StoryObj = {
+  name: 'product gallery 7',
+  render: () => <Component4 />,
 };
 

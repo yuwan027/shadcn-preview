@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import ProductList1 from '@/components/blocks/product-list/product-list1';
-import ProductList10 from '@/components/blocks/product-list/product-list10';
-import ProductList2 from '@/components/blocks/product-list/product-list2';
-import ProductList3 from '@/components/blocks/product-list/product-list3';
-import ProductList4 from '@/components/blocks/product-list/product-list4';
-import ProductList5 from '@/components/blocks/product-list/product-list5';
-import ProductList6 from '@/components/blocks/product-list/product-list6';
-import ProductList7 from '@/components/blocks/product-list/product-list7';
-import ProductList8 from '@/components/blocks/product-list/product-list8';
-import ProductList9 from '@/components/blocks/product-list/product-list9';
+import Component0 from '@/components/blocks/product-list/product-list1';
+import Component1 from '@/components/blocks/product-list/product-list10';
+import Component2 from '@/components/blocks/product-list/product-list2';
+import Component3 from '@/components/blocks/product-list/product-list3';
+import Component4 from '@/components/blocks/product-list/product-list4';
+import Component5 from '@/components/blocks/product-list/product-list5';
+import Component6 from '@/components/blocks/product-list/product-list6';
+import Component7 from '@/components/blocks/product-list/product-list7';
+import Component8 from '@/components/blocks/product-list/product-list8';
+import Component9 from '@/components/blocks/product-list/product-list9';
 
 const meta: Meta = {
   title: 'Blocks/Product List',
@@ -18,53 +18,53 @@ const meta: Meta = {
 
 export default meta;
 
-export const ProductList1: StoryObj = {
-  name: 'Product List1',
-  render: () => <ProductList1 />,
+export const StoryProductList1: StoryObj = {
+  name: 'product list 1',
+  render: () => <Component0 />,
 };
 
-export const ProductList10: StoryObj = {
-  name: 'Product List10',
-  render: () => <ProductList10 />,
+export const StoryProductList10: StoryObj = {
+  name: 'product list 10',
+  render: () => <Component1 />,
 };
 
-export const ProductList2: StoryObj = {
-  name: 'Product List2',
-  render: () => <ProductList2 />,
+export const StoryProductList2: StoryObj = {
+  name: 'product list 2',
+  render: () => <Component2 />,
 };
 
-export const ProductList3: StoryObj = {
-  name: 'Product List3',
-  render: () => <ProductList3 />,
+export const StoryProductList3: StoryObj = {
+  name: 'product list 3',
+  render: () => <Component3 />,
 };
 
-export const ProductList4: StoryObj = {
-  name: 'Product List4',
-  render: () => <ProductList4 />,
+export const StoryProductList4: StoryObj = {
+  name: 'product list 4',
+  render: () => <Component4 />,
 };
 
-export const ProductList5: StoryObj = {
-  name: 'Product List5',
-  render: () => <ProductList5 />,
+export const StoryProductList5: StoryObj = {
+  name: 'product list 5',
+  render: () => <Component5 />,
 };
 
-export const ProductList6: StoryObj = {
-  name: 'Product List6',
-  render: () => <ProductList6 />,
+export const StoryProductList6: StoryObj = {
+  name: 'product list 6',
+  render: () => <Component6 />,
 };
 
-export const ProductList7: StoryObj = {
-  name: 'Product List7',
-  render: () => <ProductList7 />,
+export const StoryProductList7: StoryObj = {
+  name: 'product list 7',
+  render: () => <Component7 />,
 };
 
-export const ProductList8: StoryObj = {
-  name: 'Product List8',
-  render: () => <ProductList8 />,
+export const StoryProductList8: StoryObj = {
+  name: 'product list 8',
+  render: () => <Component8 />,
 };
 
-export const ProductList9: StoryObj = {
-  name: 'Product List9',
-  render: () => <ProductList9 />,
+export const StoryProductList9: StoryObj = {
+  name: 'product list 9',
+  render: () => <Component9 />,
 };
 

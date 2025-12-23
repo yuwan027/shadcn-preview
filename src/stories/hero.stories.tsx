@@ -1,170 +1,170 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Hero10 from '@/components/blocks/hero/hero10';
-import Hero100 from '@/components/blocks/hero/hero100';
-import Hero101 from '@/components/blocks/hero/hero101';
-import Hero103 from '@/components/blocks/hero/hero103';
-import Hero104 from '@/components/blocks/hero/hero104';
-import Hero107 from '@/components/blocks/hero/hero107';
-import Hero108 from '@/components/blocks/hero/hero108';
-import Hero11 from '@/components/blocks/hero/hero11';
-import Hero111 from '@/components/blocks/hero/hero111';
-import Hero112 from '@/components/blocks/hero/hero112';
-import Hero116 from '@/components/blocks/hero/hero116';
-import Hero12 from '@/components/blocks/hero/hero12';
-import Hero123 from '@/components/blocks/hero/hero123';
-import Hero125 from '@/components/blocks/hero/hero125';
-import Hero127 from '@/components/blocks/hero/hero127';
-import Hero129 from '@/components/blocks/hero/hero129';
-import Hero13 from '@/components/blocks/hero/hero13';
-import Hero134 from '@/components/blocks/hero/hero134';
-import Hero135 from '@/components/blocks/hero/hero135';
-import Hero136 from '@/components/blocks/hero/hero136';
-import Hero14 from '@/components/blocks/hero/hero14';
-import Hero141 from '@/components/blocks/hero/hero141';
-import Hero143 from '@/components/blocks/hero/hero143';
-import Hero144 from '@/components/blocks/hero/hero144';
-import Hero145 from '@/components/blocks/hero/hero145';
-import Hero146 from '@/components/blocks/hero/hero146';
-import Hero149 from '@/components/blocks/hero/hero149';
-import Hero15 from '@/components/blocks/hero/hero15';
-import Hero151 from '@/components/blocks/hero/hero151';
-import Hero152 from '@/components/blocks/hero/hero152';
-import Hero157 from '@/components/blocks/hero/hero157';
-import Hero158 from '@/components/blocks/hero/hero158';
-import Hero159 from '@/components/blocks/hero/hero159';
-import Hero16 from '@/components/blocks/hero/hero16';
-import Hero160 from '@/components/blocks/hero/hero160';
-import Hero162 from '@/components/blocks/hero/hero162';
-import Hero163 from '@/components/blocks/hero/hero163';
-import Hero164 from '@/components/blocks/hero/hero164';
-import Hero165 from '@/components/blocks/hero/hero165';
-import Hero166 from '@/components/blocks/hero/hero166';
-import Hero167 from '@/components/blocks/hero/hero167';
-import Hero168 from '@/components/blocks/hero/hero168';
-import Hero170 from '@/components/blocks/hero/hero170';
-import Hero171 from '@/components/blocks/hero/hero171';
-import Hero172 from '@/components/blocks/hero/hero172';
-import Hero173 from '@/components/blocks/hero/hero173';
-import Hero174 from '@/components/blocks/hero/hero174';
-import Hero175 from '@/components/blocks/hero/hero175';
-import Hero177 from '@/components/blocks/hero/hero177';
-import Hero178 from '@/components/blocks/hero/hero178';
-import Hero179 from '@/components/blocks/hero/hero179';
-import Hero18 from '@/components/blocks/hero/hero18';
-import Hero180 from '@/components/blocks/hero/hero180';
-import Hero183 from '@/components/blocks/hero/hero183';
-import Hero185 from '@/components/blocks/hero/hero185';
-import Hero186 from '@/components/blocks/hero/hero186';
-import Hero187 from '@/components/blocks/hero/hero187';
-import Hero187a from '@/components/blocks/hero/hero187a';
-import Hero187b from '@/components/blocks/hero/hero187b';
-import Hero190 from '@/components/blocks/hero/hero190';
-import Hero192 from '@/components/blocks/hero/hero192';
-import Hero194 from '@/components/blocks/hero/hero194';
-import Hero196 from '@/components/blocks/hero/hero196';
-import Hero197 from '@/components/blocks/hero/hero197';
-import Hero2 from '@/components/blocks/hero/hero2';
-import Hero20 from '@/components/blocks/hero/hero20';
-import Hero200 from '@/components/blocks/hero/hero200';
-import Hero201 from '@/components/blocks/hero/hero201';
-import Hero202 from '@/components/blocks/hero/hero202';
-import Hero203 from '@/components/blocks/hero/hero203';
-import Hero204 from '@/components/blocks/hero/hero204';
-import Hero205 from '@/components/blocks/hero/hero205';
-import Hero21 from '@/components/blocks/hero/hero21';
-import Hero210 from '@/components/blocks/hero/hero210';
-import Hero211 from '@/components/blocks/hero/hero211';
-import Hero212 from '@/components/blocks/hero/hero212';
-import Hero213 from '@/components/blocks/hero/hero213';
-import Hero214 from '@/components/blocks/hero/hero214';
-import Hero215 from '@/components/blocks/hero/hero215';
-import Hero216 from '@/components/blocks/hero/hero216';
-import Hero217 from '@/components/blocks/hero/hero217';
-import Hero218 from '@/components/blocks/hero/hero218';
-import Hero219 from '@/components/blocks/hero/hero219';
-import Hero220 from '@/components/blocks/hero/hero220';
-import Hero221 from '@/components/blocks/hero/hero221';
-import Hero222 from '@/components/blocks/hero/hero222';
-import Hero223 from '@/components/blocks/hero/hero223';
-import Hero224 from '@/components/blocks/hero/hero224';
-import Hero225 from '@/components/blocks/hero/hero225';
-import Hero226 from '@/components/blocks/hero/hero226';
-import Hero227 from '@/components/blocks/hero/hero227';
-import Hero228 from '@/components/blocks/hero/hero228';
-import Hero229 from '@/components/blocks/hero/hero229';
-import Hero230 from '@/components/blocks/hero/hero230';
-import Hero231 from '@/components/blocks/hero/hero231';
-import Hero232 from '@/components/blocks/hero/hero232';
-import Hero233 from '@/components/blocks/hero/hero233';
-import Hero234 from '@/components/blocks/hero/hero234';
-import Hero234a from '@/components/blocks/hero/hero234a';
-import Hero234b from '@/components/blocks/hero/hero234b';
-import Hero236 from '@/components/blocks/hero/hero236';
-import Hero237 from '@/components/blocks/hero/hero237';
-import Hero238 from '@/components/blocks/hero/hero238';
-import Hero239 from '@/components/blocks/hero/hero239';
-import Hero24 from '@/components/blocks/hero/hero24';
-import Hero240 from '@/components/blocks/hero/hero240';
-import Hero241 from '@/components/blocks/hero/hero241';
-import Hero242 from '@/components/blocks/hero/hero242';
-import Hero244 from '@/components/blocks/hero/hero244';
-import Hero245 from '@/components/blocks/hero/hero245';
-import Hero246 from '@/components/blocks/hero/hero246';
-import Hero247 from '@/components/blocks/hero/hero247';
-import Hero248 from '@/components/blocks/hero/hero248';
-import Hero25 from '@/components/blocks/hero/hero25';
-import Hero256 from '@/components/blocks/hero/hero256';
-import Hero258 from '@/components/blocks/hero/hero258';
-import Hero259 from '@/components/blocks/hero/hero259';
-import Hero26 from '@/components/blocks/hero/hero26';
-import Hero27 from '@/components/blocks/hero/hero27';
-import Hero28 from '@/components/blocks/hero/hero28';
-import Hero29 from '@/components/blocks/hero/hero29';
-import Hero30 from '@/components/blocks/hero/hero30';
-import Hero31 from '@/components/blocks/hero/hero31';
-import Hero32 from '@/components/blocks/hero/hero32';
-import Hero33 from '@/components/blocks/hero/hero33';
-import Hero34 from '@/components/blocks/hero/hero34';
-import Hero35 from '@/components/blocks/hero/hero35';
-import Hero36 from '@/components/blocks/hero/hero36';
-import Hero37 from '@/components/blocks/hero/hero37';
-import Hero38 from '@/components/blocks/hero/hero38';
-import Hero39 from '@/components/blocks/hero/hero39';
-import Hero4 from '@/components/blocks/hero/hero4';
-import Hero40 from '@/components/blocks/hero/hero40';
-import Hero49 from '@/components/blocks/hero/hero49';
-import Hero5 from '@/components/blocks/hero/hero5';
-import Hero50 from '@/components/blocks/hero/hero50';
-import Hero51 from '@/components/blocks/hero/hero51';
-import Hero53 from '@/components/blocks/hero/hero53';
-import Hero55 from '@/components/blocks/hero/hero55';
-import Hero57 from '@/components/blocks/hero/hero57';
-import Hero58 from '@/components/blocks/hero/hero58';
-import Hero59 from '@/components/blocks/hero/hero59';
-import Hero6 from '@/components/blocks/hero/hero6';
-import Hero60 from '@/components/blocks/hero/hero60';
-import Hero64 from '@/components/blocks/hero/hero64';
-import Hero68 from '@/components/blocks/hero/hero68';
-import Hero70 from '@/components/blocks/hero/hero70';
-import Hero71 from '@/components/blocks/hero/hero71';
-import Hero74 from '@/components/blocks/hero/hero74';
-import Hero75 from '@/components/blocks/hero/hero75';
-import Hero76 from '@/components/blocks/hero/hero76';
-import Hero79 from '@/components/blocks/hero/hero79';
-import Hero8 from '@/components/blocks/hero/hero8';
-import Hero80 from '@/components/blocks/hero/hero80';
-import Hero82 from '@/components/blocks/hero/hero82';
-import Hero83 from '@/components/blocks/hero/hero83';
-import Hero84 from '@/components/blocks/hero/hero84';
-import Hero85 from '@/components/blocks/hero/hero85';
-import Hero86 from '@/components/blocks/hero/hero86';
-import Hero87 from '@/components/blocks/hero/hero87';
-import Hero89 from '@/components/blocks/hero/hero89';
-import Hero9 from '@/components/blocks/hero/hero9';
-import Hero90 from '@/components/blocks/hero/hero90';
-import Hero91 from '@/components/blocks/hero/hero91';
-import Hero99 from '@/components/blocks/hero/hero99';
+import Component0 from '@/components/blocks/hero/hero10';
+import Component1 from '@/components/blocks/hero/hero100';
+import Component2 from '@/components/blocks/hero/hero101';
+import Component3 from '@/components/blocks/hero/hero103';
+import Component4 from '@/components/blocks/hero/hero104';
+import Component5 from '@/components/blocks/hero/hero107';
+import Component6 from '@/components/blocks/hero/hero108';
+import Component7 from '@/components/blocks/hero/hero11';
+import Component8 from '@/components/blocks/hero/hero111';
+import Component9 from '@/components/blocks/hero/hero112';
+import Component10 from '@/components/blocks/hero/hero116';
+import Component11 from '@/components/blocks/hero/hero12';
+import Component12 from '@/components/blocks/hero/hero123';
+import Component13 from '@/components/blocks/hero/hero125';
+import Component14 from '@/components/blocks/hero/hero127';
+import Component15 from '@/components/blocks/hero/hero129';
+import Component16 from '@/components/blocks/hero/hero13';
+import Component17 from '@/components/blocks/hero/hero134';
+import Component18 from '@/components/blocks/hero/hero135';
+import Component19 from '@/components/blocks/hero/hero136';
+import Component20 from '@/components/blocks/hero/hero14';
+import Component21 from '@/components/blocks/hero/hero141';
+import Component22 from '@/components/blocks/hero/hero143';
+import Component23 from '@/components/blocks/hero/hero144';
+import Component24 from '@/components/blocks/hero/hero145';
+import Component25 from '@/components/blocks/hero/hero146';
+import Component26 from '@/components/blocks/hero/hero149';
+import Component27 from '@/components/blocks/hero/hero15';
+import Component28 from '@/components/blocks/hero/hero151';
+import Component29 from '@/components/blocks/hero/hero152';
+import Component30 from '@/components/blocks/hero/hero157';
+import Component31 from '@/components/blocks/hero/hero158';
+import Component32 from '@/components/blocks/hero/hero159';
+import Component33 from '@/components/blocks/hero/hero16';
+import Component34 from '@/components/blocks/hero/hero160';
+import Component35 from '@/components/blocks/hero/hero162';
+import Component36 from '@/components/blocks/hero/hero163';
+import Component37 from '@/components/blocks/hero/hero164';
+import Component38 from '@/components/blocks/hero/hero165';
+import Component39 from '@/components/blocks/hero/hero166';
+import Component40 from '@/components/blocks/hero/hero167';
+import Component41 from '@/components/blocks/hero/hero168';
+import Component42 from '@/components/blocks/hero/hero170';
+import Component43 from '@/components/blocks/hero/hero171';
+import Component44 from '@/components/blocks/hero/hero172';
+import Component45 from '@/components/blocks/hero/hero173';
+import Component46 from '@/components/blocks/hero/hero174';
+import Component47 from '@/components/blocks/hero/hero175';
+import Component48 from '@/components/blocks/hero/hero177';
+import Component49 from '@/components/blocks/hero/hero178';
+import Component50 from '@/components/blocks/hero/hero179';
+import Component51 from '@/components/blocks/hero/hero18';
+import Component52 from '@/components/blocks/hero/hero180';
+import Component53 from '@/components/blocks/hero/hero183';
+import Component54 from '@/components/blocks/hero/hero185';
+import Component55 from '@/components/blocks/hero/hero186';
+import Component56 from '@/components/blocks/hero/hero187';
+import Component57 from '@/components/blocks/hero/hero187a';
+import Component58 from '@/components/blocks/hero/hero187b';
+import Component59 from '@/components/blocks/hero/hero190';
+import Component60 from '@/components/blocks/hero/hero192';
+import Component61 from '@/components/blocks/hero/hero194';
+import Component62 from '@/components/blocks/hero/hero196';
+import Component63 from '@/components/blocks/hero/hero197';
+import Component64 from '@/components/blocks/hero/hero2';
+import Component65 from '@/components/blocks/hero/hero20';
+import Component66 from '@/components/blocks/hero/hero200';
+import Component67 from '@/components/blocks/hero/hero201';
+import Component68 from '@/components/blocks/hero/hero202';
+import Component69 from '@/components/blocks/hero/hero203';
+import Component70 from '@/components/blocks/hero/hero204';
+import Component71 from '@/components/blocks/hero/hero205';
+import Component72 from '@/components/blocks/hero/hero21';
+import Component73 from '@/components/blocks/hero/hero210';
+import Component74 from '@/components/blocks/hero/hero211';
+import Component75 from '@/components/blocks/hero/hero212';
+import Component76 from '@/components/blocks/hero/hero213';
+import Component77 from '@/components/blocks/hero/hero214';
+import Component78 from '@/components/blocks/hero/hero215';
+import Component79 from '@/components/blocks/hero/hero216';
+import Component80 from '@/components/blocks/hero/hero217';
+import Component81 from '@/components/blocks/hero/hero218';
+import Component82 from '@/components/blocks/hero/hero219';
+import Component83 from '@/components/blocks/hero/hero220';
+import Component84 from '@/components/blocks/hero/hero221';
+import Component85 from '@/components/blocks/hero/hero222';
+import Component86 from '@/components/blocks/hero/hero223';
+import Component87 from '@/components/blocks/hero/hero224';
+import Component88 from '@/components/blocks/hero/hero225';
+import Component89 from '@/components/blocks/hero/hero226';
+import Component90 from '@/components/blocks/hero/hero227';
+import Component91 from '@/components/blocks/hero/hero228';
+import Component92 from '@/components/blocks/hero/hero229';
+import Component93 from '@/components/blocks/hero/hero230';
+import Component94 from '@/components/blocks/hero/hero231';
+import Component95 from '@/components/blocks/hero/hero232';
+import Component96 from '@/components/blocks/hero/hero233';
+import Component97 from '@/components/blocks/hero/hero234';
+import Component98 from '@/components/blocks/hero/hero234a';
+import Component99 from '@/components/blocks/hero/hero234b';
+import Component100 from '@/components/blocks/hero/hero236';
+import Component101 from '@/components/blocks/hero/hero237';
+import Component102 from '@/components/blocks/hero/hero238';
+import Component103 from '@/components/blocks/hero/hero239';
+import Component104 from '@/components/blocks/hero/hero24';
+import Component105 from '@/components/blocks/hero/hero240';
+import Component106 from '@/components/blocks/hero/hero241';
+import Component107 from '@/components/blocks/hero/hero242';
+import Component108 from '@/components/blocks/hero/hero244';
+import Component109 from '@/components/blocks/hero/hero245';
+import Component110 from '@/components/blocks/hero/hero246';
+import Component111 from '@/components/blocks/hero/hero247';
+import Component112 from '@/components/blocks/hero/hero248';
+import Component113 from '@/components/blocks/hero/hero25';
+import Component114 from '@/components/blocks/hero/hero256';
+import Component115 from '@/components/blocks/hero/hero258';
+import Component116 from '@/components/blocks/hero/hero259';
+import Component117 from '@/components/blocks/hero/hero26';
+import Component118 from '@/components/blocks/hero/hero27';
+import Component119 from '@/components/blocks/hero/hero28';
+import Component120 from '@/components/blocks/hero/hero29';
+import Component121 from '@/components/blocks/hero/hero30';
+import Component122 from '@/components/blocks/hero/hero31';
+import Component123 from '@/components/blocks/hero/hero32';
+import Component124 from '@/components/blocks/hero/hero33';
+import Component125 from '@/components/blocks/hero/hero34';
+import Component126 from '@/components/blocks/hero/hero35';
+import Component127 from '@/components/blocks/hero/hero36';
+import Component128 from '@/components/blocks/hero/hero37';
+import Component129 from '@/components/blocks/hero/hero38';
+import Component130 from '@/components/blocks/hero/hero39';
+import Component131 from '@/components/blocks/hero/hero4';
+import Component132 from '@/components/blocks/hero/hero40';
+import Component133 from '@/components/blocks/hero/hero49';
+import Component134 from '@/components/blocks/hero/hero5';
+import Component135 from '@/components/blocks/hero/hero50';
+import Component136 from '@/components/blocks/hero/hero51';
+import Component137 from '@/components/blocks/hero/hero53';
+import Component138 from '@/components/blocks/hero/hero55';
+import Component139 from '@/components/blocks/hero/hero57';
+import Component140 from '@/components/blocks/hero/hero58';
+import Component141 from '@/components/blocks/hero/hero59';
+import Component142 from '@/components/blocks/hero/hero6';
+import Component143 from '@/components/blocks/hero/hero60';
+import Component144 from '@/components/blocks/hero/hero64';
+import Component145 from '@/components/blocks/hero/hero68';
+import Component146 from '@/components/blocks/hero/hero70';
+import Component147 from '@/components/blocks/hero/hero71';
+import Component148 from '@/components/blocks/hero/hero74';
+import Component149 from '@/components/blocks/hero/hero75';
+import Component150 from '@/components/blocks/hero/hero76';
+import Component151 from '@/components/blocks/hero/hero79';
+import Component152 from '@/components/blocks/hero/hero8';
+import Component153 from '@/components/blocks/hero/hero80';
+import Component154 from '@/components/blocks/hero/hero82';
+import Component155 from '@/components/blocks/hero/hero83';
+import Component156 from '@/components/blocks/hero/hero84';
+import Component157 from '@/components/blocks/hero/hero85';
+import Component158 from '@/components/blocks/hero/hero86';
+import Component159 from '@/components/blocks/hero/hero87';
+import Component160 from '@/components/blocks/hero/hero89';
+import Component161 from '@/components/blocks/hero/hero9';
+import Component162 from '@/components/blocks/hero/hero90';
+import Component163 from '@/components/blocks/hero/hero91';
+import Component164 from '@/components/blocks/hero/hero99';
 
 const meta: Meta = {
   title: 'Blocks/Hero',
@@ -173,828 +173,828 @@ const meta: Meta = {
 
 export default meta;
 
-export const Hero10: StoryObj = {
-  name: 'Hero10',
-  render: () => <Hero10 />,
+export const StoryHero10: StoryObj = {
+  name: 'hero 10',
+  render: () => <Component0 />,
 };
 
-export const Hero100: StoryObj = {
-  name: 'Hero100',
-  render: () => <Hero100 />,
+export const StoryHero100: StoryObj = {
+  name: 'hero 100',
+  render: () => <Component1 />,
 };
 
-export const Hero101: StoryObj = {
-  name: 'Hero101',
-  render: () => <Hero101 />,
+export const StoryHero101: StoryObj = {
+  name: 'hero 101',
+  render: () => <Component2 />,
 };
 
-export const Hero103: StoryObj = {
-  name: 'Hero103',
-  render: () => <Hero103 />,
+export const StoryHero103: StoryObj = {
+  name: 'hero 103',
+  render: () => <Component3 />,
 };
 
-export const Hero104: StoryObj = {
-  name: 'Hero104',
-  render: () => <Hero104 />,
+export const StoryHero104: StoryObj = {
+  name: 'hero 104',
+  render: () => <Component4 />,
 };
 
-export const Hero107: StoryObj = {
-  name: 'Hero107',
-  render: () => <Hero107 />,
+export const StoryHero107: StoryObj = {
+  name: 'hero 107',
+  render: () => <Component5 />,
 };
 
-export const Hero108: StoryObj = {
-  name: 'Hero108',
-  render: () => <Hero108 />,
+export const StoryHero108: StoryObj = {
+  name: 'hero 108',
+  render: () => <Component6 />,
 };
 
-export const Hero11: StoryObj = {
-  name: 'Hero11',
-  render: () => <Hero11 />,
+export const StoryHero11: StoryObj = {
+  name: 'hero 11',
+  render: () => <Component7 />,
 };
 
-export const Hero111: StoryObj = {
-  name: 'Hero111',
-  render: () => <Hero111 />,
+export const StoryHero111: StoryObj = {
+  name: 'hero 111',
+  render: () => <Component8 />,
 };
 
-export const Hero112: StoryObj = {
-  name: 'Hero112',
-  render: () => <Hero112 />,
+export const StoryHero112: StoryObj = {
+  name: 'hero 112',
+  render: () => <Component9 />,
 };
 
-export const Hero116: StoryObj = {
-  name: 'Hero116',
-  render: () => <Hero116 />,
+export const StoryHero116: StoryObj = {
+  name: 'hero 116',
+  render: () => <Component10 />,
 };
 
-export const Hero12: StoryObj = {
-  name: 'Hero12',
-  render: () => <Hero12 />,
+export const StoryHero12: StoryObj = {
+  name: 'hero 12',
+  render: () => <Component11 />,
 };
 
-export const Hero123: StoryObj = {
-  name: 'Hero123',
-  render: () => <Hero123 />,
+export const StoryHero123: StoryObj = {
+  name: 'hero 123',
+  render: () => <Component12 />,
 };
 
-export const Hero125: StoryObj = {
-  name: 'Hero125',
-  render: () => <Hero125 />,
+export const StoryHero125: StoryObj = {
+  name: 'hero 125',
+  render: () => <Component13 />,
 };
 
-export const Hero127: StoryObj = {
-  name: 'Hero127',
-  render: () => <Hero127 />,
+export const StoryHero127: StoryObj = {
+  name: 'hero 127',
+  render: () => <Component14 />,
 };
 
-export const Hero129: StoryObj = {
-  name: 'Hero129',
-  render: () => <Hero129 />,
+export const StoryHero129: StoryObj = {
+  name: 'hero 129',
+  render: () => <Component15 />,
 };
 
-export const Hero13: StoryObj = {
-  name: 'Hero13',
-  render: () => <Hero13 />,
+export const StoryHero13: StoryObj = {
+  name: 'hero 13',
+  render: () => <Component16 />,
 };
 
-export const Hero134: StoryObj = {
-  name: 'Hero134',
-  render: () => <Hero134 />,
+export const StoryHero134: StoryObj = {
+  name: 'hero 134',
+  render: () => <Component17 />,
 };
 
-export const Hero135: StoryObj = {
-  name: 'Hero135',
-  render: () => <Hero135 />,
+export const StoryHero135: StoryObj = {
+  name: 'hero 135',
+  render: () => <Component18 />,
 };
 
-export const Hero136: StoryObj = {
-  name: 'Hero136',
-  render: () => <Hero136 />,
+export const StoryHero136: StoryObj = {
+  name: 'hero 136',
+  render: () => <Component19 />,
 };
 
-export const Hero14: StoryObj = {
-  name: 'Hero14',
-  render: () => <Hero14 />,
+export const StoryHero14: StoryObj = {
+  name: 'hero 14',
+  render: () => <Component20 />,
 };
 
-export const Hero141: StoryObj = {
-  name: 'Hero141',
-  render: () => <Hero141 />,
+export const StoryHero141: StoryObj = {
+  name: 'hero 141',
+  render: () => <Component21 />,
 };
 
-export const Hero143: StoryObj = {
-  name: 'Hero143',
-  render: () => <Hero143 />,
+export const StoryHero143: StoryObj = {
+  name: 'hero 143',
+  render: () => <Component22 />,
 };
 
-export const Hero144: StoryObj = {
-  name: 'Hero144',
-  render: () => <Hero144 />,
+export const StoryHero144: StoryObj = {
+  name: 'hero 144',
+  render: () => <Component23 />,
 };
 
-export const Hero145: StoryObj = {
-  name: 'Hero145',
-  render: () => <Hero145 />,
+export const StoryHero145: StoryObj = {
+  name: 'hero 145',
+  render: () => <Component24 />,
 };
 
-export const Hero146: StoryObj = {
-  name: 'Hero146',
-  render: () => <Hero146 />,
+export const StoryHero146: StoryObj = {
+  name: 'hero 146',
+  render: () => <Component25 />,
 };
 
-export const Hero149: StoryObj = {
-  name: 'Hero149',
-  render: () => <Hero149 />,
+export const StoryHero149: StoryObj = {
+  name: 'hero 149',
+  render: () => <Component26 />,
 };
 
-export const Hero15: StoryObj = {
-  name: 'Hero15',
-  render: () => <Hero15 />,
+export const StoryHero15: StoryObj = {
+  name: 'hero 15',
+  render: () => <Component27 />,
 };
 
-export const Hero151: StoryObj = {
-  name: 'Hero151',
-  render: () => <Hero151 />,
+export const StoryHero151: StoryObj = {
+  name: 'hero 151',
+  render: () => <Component28 />,
 };
 
-export const Hero152: StoryObj = {
-  name: 'Hero152',
-  render: () => <Hero152 />,
+export const StoryHero152: StoryObj = {
+  name: 'hero 152',
+  render: () => <Component29 />,
 };
 
-export const Hero157: StoryObj = {
-  name: 'Hero157',
-  render: () => <Hero157 />,
+export const StoryHero157: StoryObj = {
+  name: 'hero 157',
+  render: () => <Component30 />,
 };
 
-export const Hero158: StoryObj = {
-  name: 'Hero158',
-  render: () => <Hero158 />,
+export const StoryHero158: StoryObj = {
+  name: 'hero 158',
+  render: () => <Component31 />,
 };
 
-export const Hero159: StoryObj = {
-  name: 'Hero159',
-  render: () => <Hero159 />,
+export const StoryHero159: StoryObj = {
+  name: 'hero 159',
+  render: () => <Component32 />,
 };
 
-export const Hero16: StoryObj = {
-  name: 'Hero16',
-  render: () => <Hero16 />,
+export const StoryHero16: StoryObj = {
+  name: 'hero 16',
+  render: () => <Component33 />,
 };
 
-export const Hero160: StoryObj = {
-  name: 'Hero160',
-  render: () => <Hero160 />,
+export const StoryHero160: StoryObj = {
+  name: 'hero 160',
+  render: () => <Component34 />,
 };
 
-export const Hero162: StoryObj = {
-  name: 'Hero162',
-  render: () => <Hero162 />,
+export const StoryHero162: StoryObj = {
+  name: 'hero 162',
+  render: () => <Component35 />,
 };
 
-export const Hero163: StoryObj = {
-  name: 'Hero163',
-  render: () => <Hero163 />,
+export const StoryHero163: StoryObj = {
+  name: 'hero 163',
+  render: () => <Component36 />,
 };
 
-export const Hero164: StoryObj = {
-  name: 'Hero164',
-  render: () => <Hero164 />,
+export const StoryHero164: StoryObj = {
+  name: 'hero 164',
+  render: () => <Component37 />,
 };
 
-export const Hero165: StoryObj = {
-  name: 'Hero165',
-  render: () => <Hero165 />,
+export const StoryHero165: StoryObj = {
+  name: 'hero 165',
+  render: () => <Component38 />,
 };
 
-export const Hero166: StoryObj = {
-  name: 'Hero166',
-  render: () => <Hero166 />,
+export const StoryHero166: StoryObj = {
+  name: 'hero 166',
+  render: () => <Component39 />,
 };
 
-export const Hero167: StoryObj = {
-  name: 'Hero167',
-  render: () => <Hero167 />,
+export const StoryHero167: StoryObj = {
+  name: 'hero 167',
+  render: () => <Component40 />,
 };
 
-export const Hero168: StoryObj = {
-  name: 'Hero168',
-  render: () => <Hero168 />,
+export const StoryHero168: StoryObj = {
+  name: 'hero 168',
+  render: () => <Component41 />,
 };
 
-export const Hero170: StoryObj = {
-  name: 'Hero170',
-  render: () => <Hero170 />,
+export const StoryHero170: StoryObj = {
+  name: 'hero 170',
+  render: () => <Component42 />,
 };
 
-export const Hero171: StoryObj = {
-  name: 'Hero171',
-  render: () => <Hero171 />,
+export const StoryHero171: StoryObj = {
+  name: 'hero 171',
+  render: () => <Component43 />,
 };
 
-export const Hero172: StoryObj = {
-  name: 'Hero172',
-  render: () => <Hero172 />,
+export const StoryHero172: StoryObj = {
+  name: 'hero 172',
+  render: () => <Component44 />,
 };
 
-export const Hero173: StoryObj = {
-  name: 'Hero173',
-  render: () => <Hero173 />,
+export const StoryHero173: StoryObj = {
+  name: 'hero 173',
+  render: () => <Component45 />,
 };
 
-export const Hero174: StoryObj = {
-  name: 'Hero174',
-  render: () => <Hero174 />,
+export const StoryHero174: StoryObj = {
+  name: 'hero 174',
+  render: () => <Component46 />,
 };
 
-export const Hero175: StoryObj = {
-  name: 'Hero175',
-  render: () => <Hero175 />,
+export const StoryHero175: StoryObj = {
+  name: 'hero 175',
+  render: () => <Component47 />,
 };
 
-export const Hero177: StoryObj = {
-  name: 'Hero177',
-  render: () => <Hero177 />,
+export const StoryHero177: StoryObj = {
+  name: 'hero 177',
+  render: () => <Component48 />,
 };
 
-export const Hero178: StoryObj = {
-  name: 'Hero178',
-  render: () => <Hero178 />,
+export const StoryHero178: StoryObj = {
+  name: 'hero 178',
+  render: () => <Component49 />,
 };
 
-export const Hero179: StoryObj = {
-  name: 'Hero179',
-  render: () => <Hero179 />,
+export const StoryHero179: StoryObj = {
+  name: 'hero 179',
+  render: () => <Component50 />,
 };
 
-export const Hero18: StoryObj = {
-  name: 'Hero18',
-  render: () => <Hero18 />,
+export const StoryHero18: StoryObj = {
+  name: 'hero 18',
+  render: () => <Component51 />,
 };
 
-export const Hero180: StoryObj = {
-  name: 'Hero180',
-  render: () => <Hero180 />,
+export const StoryHero180: StoryObj = {
+  name: 'hero 180',
+  render: () => <Component52 />,
 };
 
-export const Hero183: StoryObj = {
-  name: 'Hero183',
-  render: () => <Hero183 />,
+export const StoryHero183: StoryObj = {
+  name: 'hero 183',
+  render: () => <Component53 />,
 };
 
-export const Hero185: StoryObj = {
-  name: 'Hero185',
-  render: () => <Hero185 />,
+export const StoryHero185: StoryObj = {
+  name: 'hero 185',
+  render: () => <Component54 />,
 };
 
-export const Hero186: StoryObj = {
-  name: 'Hero186',
-  render: () => <Hero186 />,
+export const StoryHero186: StoryObj = {
+  name: 'hero 186',
+  render: () => <Component55 />,
 };
 
-export const Hero187: StoryObj = {
-  name: 'Hero187',
-  render: () => <Hero187 />,
+export const StoryHero187: StoryObj = {
+  name: 'hero 187',
+  render: () => <Component56 />,
 };
 
-export const Hero187a: StoryObj = {
-  name: 'Hero187a',
-  render: () => <Hero187a />,
+export const StoryHero187a: StoryObj = {
+  name: 'hero 187a',
+  render: () => <Component57 />,
 };
 
-export const Hero187b: StoryObj = {
-  name: 'Hero187b',
-  render: () => <Hero187b />,
+export const StoryHero187b: StoryObj = {
+  name: 'hero 187b',
+  render: () => <Component58 />,
 };
 
-export const Hero190: StoryObj = {
-  name: 'Hero190',
-  render: () => <Hero190 />,
+export const StoryHero190: StoryObj = {
+  name: 'hero 190',
+  render: () => <Component59 />,
 };
 
-export const Hero192: StoryObj = {
-  name: 'Hero192',
-  render: () => <Hero192 />,
+export const StoryHero192: StoryObj = {
+  name: 'hero 192',
+  render: () => <Component60 />,
 };
 
-export const Hero194: StoryObj = {
-  name: 'Hero194',
-  render: () => <Hero194 />,
+export const StoryHero194: StoryObj = {
+  name: 'hero 194',
+  render: () => <Component61 />,
 };
 
-export const Hero196: StoryObj = {
-  name: 'Hero196',
-  render: () => <Hero196 />,
+export const StoryHero196: StoryObj = {
+  name: 'hero 196',
+  render: () => <Component62 />,
 };
 
-export const Hero197: StoryObj = {
-  name: 'Hero197',
-  render: () => <Hero197 />,
+export const StoryHero197: StoryObj = {
+  name: 'hero 197',
+  render: () => <Component63 />,
 };
 
-export const Hero2: StoryObj = {
-  name: 'Hero2',
-  render: () => <Hero2 />,
+export const StoryHero2: StoryObj = {
+  name: 'hero 2',
+  render: () => <Component64 />,
 };
 
-export const Hero20: StoryObj = {
-  name: 'Hero20',
-  render: () => <Hero20 />,
+export const StoryHero20: StoryObj = {
+  name: 'hero 20',
+  render: () => <Component65 />,
 };
 
-export const Hero200: StoryObj = {
-  name: 'Hero200',
-  render: () => <Hero200 />,
+export const StoryHero200: StoryObj = {
+  name: 'hero 200',
+  render: () => <Component66 />,
 };
 
-export const Hero201: StoryObj = {
-  name: 'Hero201',
-  render: () => <Hero201 />,
+export const StoryHero201: StoryObj = {
+  name: 'hero 201',
+  render: () => <Component67 />,
 };
 
-export const Hero202: StoryObj = {
-  name: 'Hero202',
-  render: () => <Hero202 />,
+export const StoryHero202: StoryObj = {
+  name: 'hero 202',
+  render: () => <Component68 />,
 };
 
-export const Hero203: StoryObj = {
-  name: 'Hero203',
-  render: () => <Hero203 />,
+export const StoryHero203: StoryObj = {
+  name: 'hero 203',
+  render: () => <Component69 />,
 };
 
-export const Hero204: StoryObj = {
-  name: 'Hero204',
-  render: () => <Hero204 />,
+export const StoryHero204: StoryObj = {
+  name: 'hero 204',
+  render: () => <Component70 />,
 };
 
-export const Hero205: StoryObj = {
-  name: 'Hero205',
-  render: () => <Hero205 />,
+export const StoryHero205: StoryObj = {
+  name: 'hero 205',
+  render: () => <Component71 />,
 };
 
-export const Hero21: StoryObj = {
-  name: 'Hero21',
-  render: () => <Hero21 />,
+export const StoryHero21: StoryObj = {
+  name: 'hero 21',
+  render: () => <Component72 />,
 };
 
-export const Hero210: StoryObj = {
-  name: 'Hero210',
-  render: () => <Hero210 />,
+export const StoryHero210: StoryObj = {
+  name: 'hero 210',
+  render: () => <Component73 />,
 };
 
-export const Hero211: StoryObj = {
-  name: 'Hero211',
-  render: () => <Hero211 />,
+export const StoryHero211: StoryObj = {
+  name: 'hero 211',
+  render: () => <Component74 />,
 };
 
-export const Hero212: StoryObj = {
-  name: 'Hero212',
-  render: () => <Hero212 />,
+export const StoryHero212: StoryObj = {
+  name: 'hero 212',
+  render: () => <Component75 />,
 };
 
-export const Hero213: StoryObj = {
-  name: 'Hero213',
-  render: () => <Hero213 />,
+export const StoryHero213: StoryObj = {
+  name: 'hero 213',
+  render: () => <Component76 />,
 };
 
-export const Hero214: StoryObj = {
-  name: 'Hero214',
-  render: () => <Hero214 />,
+export const StoryHero214: StoryObj = {
+  name: 'hero 214',
+  render: () => <Component77 />,
 };
 
-export const Hero215: StoryObj = {
-  name: 'Hero215',
-  render: () => <Hero215 />,
+export const StoryHero215: StoryObj = {
+  name: 'hero 215',
+  render: () => <Component78 />,
 };
 
-export const Hero216: StoryObj = {
-  name: 'Hero216',
-  render: () => <Hero216 />,
+export const StoryHero216: StoryObj = {
+  name: 'hero 216',
+  render: () => <Component79 />,
 };
 
-export const Hero217: StoryObj = {
-  name: 'Hero217',
-  render: () => <Hero217 />,
+export const StoryHero217: StoryObj = {
+  name: 'hero 217',
+  render: () => <Component80 />,
 };
 
-export const Hero218: StoryObj = {
-  name: 'Hero218',
-  render: () => <Hero218 />,
+export const StoryHero218: StoryObj = {
+  name: 'hero 218',
+  render: () => <Component81 />,
 };
 
-export const Hero219: StoryObj = {
-  name: 'Hero219',
-  render: () => <Hero219 />,
+export const StoryHero219: StoryObj = {
+  name: 'hero 219',
+  render: () => <Component82 />,
 };
 
-export const Hero220: StoryObj = {
-  name: 'Hero220',
-  render: () => <Hero220 />,
+export const StoryHero220: StoryObj = {
+  name: 'hero 220',
+  render: () => <Component83 />,
 };
 
-export const Hero221: StoryObj = {
-  name: 'Hero221',
-  render: () => <Hero221 />,
+export const StoryHero221: StoryObj = {
+  name: 'hero 221',
+  render: () => <Component84 />,
 };
 
-export const Hero222: StoryObj = {
-  name: 'Hero222',
-  render: () => <Hero222 />,
+export const StoryHero222: StoryObj = {
+  name: 'hero 222',
+  render: () => <Component85 />,
 };
 
-export const Hero223: StoryObj = {
-  name: 'Hero223',
-  render: () => <Hero223 />,
+export const StoryHero223: StoryObj = {
+  name: 'hero 223',
+  render: () => <Component86 />,
 };
 
-export const Hero224: StoryObj = {
-  name: 'Hero224',
-  render: () => <Hero224 />,
+export const StoryHero224: StoryObj = {
+  name: 'hero 224',
+  render: () => <Component87 />,
 };
 
-export const Hero225: StoryObj = {
-  name: 'Hero225',
-  render: () => <Hero225 />,
+export const StoryHero225: StoryObj = {
+  name: 'hero 225',
+  render: () => <Component88 />,
 };
 
-export const Hero226: StoryObj = {
-  name: 'Hero226',
-  render: () => <Hero226 />,
+export const StoryHero226: StoryObj = {
+  name: 'hero 226',
+  render: () => <Component89 />,
 };
 
-export const Hero227: StoryObj = {
-  name: 'Hero227',
-  render: () => <Hero227 />,
+export const StoryHero227: StoryObj = {
+  name: 'hero 227',
+  render: () => <Component90 />,
 };
 
-export const Hero228: StoryObj = {
-  name: 'Hero228',
-  render: () => <Hero228 />,
+export const StoryHero228: StoryObj = {
+  name: 'hero 228',
+  render: () => <Component91 />,
 };
 
-export const Hero229: StoryObj = {
-  name: 'Hero229',
-  render: () => <Hero229 />,
+export const StoryHero229: StoryObj = {
+  name: 'hero 229',
+  render: () => <Component92 />,
 };
 
-export const Hero230: StoryObj = {
-  name: 'Hero230',
-  render: () => <Hero230 />,
+export const StoryHero230: StoryObj = {
+  name: 'hero 230',
+  render: () => <Component93 />,
 };
 
-export const Hero231: StoryObj = {
-  name: 'Hero231',
-  render: () => <Hero231 />,
+export const StoryHero231: StoryObj = {
+  name: 'hero 231',
+  render: () => <Component94 />,
 };
 
-export const Hero232: StoryObj = {
-  name: 'Hero232',
-  render: () => <Hero232 />,
+export const StoryHero232: StoryObj = {
+  name: 'hero 232',
+  render: () => <Component95 />,
 };
 
-export const Hero233: StoryObj = {
-  name: 'Hero233',
-  render: () => <Hero233 />,
+export const StoryHero233: StoryObj = {
+  name: 'hero 233',
+  render: () => <Component96 />,
 };
 
-export const Hero234: StoryObj = {
-  name: 'Hero234',
-  render: () => <Hero234 />,
+export const StoryHero234: StoryObj = {
+  name: 'hero 234',
+  render: () => <Component97 />,
 };
 
-export const Hero234a: StoryObj = {
-  name: 'Hero234a',
-  render: () => <Hero234a />,
+export const StoryHero234a: StoryObj = {
+  name: 'hero 234a',
+  render: () => <Component98 />,
 };
 
-export const Hero234b: StoryObj = {
-  name: 'Hero234b',
-  render: () => <Hero234b />,
+export const StoryHero234b: StoryObj = {
+  name: 'hero 234b',
+  render: () => <Component99 />,
 };
 
-export const Hero236: StoryObj = {
-  name: 'Hero236',
-  render: () => <Hero236 />,
+export const StoryHero236: StoryObj = {
+  name: 'hero 236',
+  render: () => <Component100 />,
 };
 
-export const Hero237: StoryObj = {
-  name: 'Hero237',
-  render: () => <Hero237 />,
+export const StoryHero237: StoryObj = {
+  name: 'hero 237',
+  render: () => <Component101 />,
 };
 
-export const Hero238: StoryObj = {
-  name: 'Hero238',
-  render: () => <Hero238 />,
+export const StoryHero238: StoryObj = {
+  name: 'hero 238',
+  render: () => <Component102 />,
 };
 
-export const Hero239: StoryObj = {
-  name: 'Hero239',
-  render: () => <Hero239 />,
+export const StoryHero239: StoryObj = {
+  name: 'hero 239',
+  render: () => <Component103 />,
 };
 
-export const Hero24: StoryObj = {
-  name: 'Hero24',
-  render: () => <Hero24 />,
+export const StoryHero24: StoryObj = {
+  name: 'hero 24',
+  render: () => <Component104 />,
 };
 
-export const Hero240: StoryObj = {
-  name: 'Hero240',
-  render: () => <Hero240 />,
+export const StoryHero240: StoryObj = {
+  name: 'hero 240',
+  render: () => <Component105 />,
 };
 
-export const Hero241: StoryObj = {
-  name: 'Hero241',
-  render: () => <Hero241 />,
+export const StoryHero241: StoryObj = {
+  name: 'hero 241',
+  render: () => <Component106 />,
 };
 
-export const Hero242: StoryObj = {
-  name: 'Hero242',
-  render: () => <Hero242 />,
+export const StoryHero242: StoryObj = {
+  name: 'hero 242',
+  render: () => <Component107 />,
 };
 
-export const Hero244: StoryObj = {
-  name: 'Hero244',
-  render: () => <Hero244 />,
+export const StoryHero244: StoryObj = {
+  name: 'hero 244',
+  render: () => <Component108 />,
 };
 
-export const Hero245: StoryObj = {
-  name: 'Hero245',
-  render: () => <Hero245 />,
+export const StoryHero245: StoryObj = {
+  name: 'hero 245',
+  render: () => <Component109 />,
 };
 
-export const Hero246: StoryObj = {
-  name: 'Hero246',
-  render: () => <Hero246 />,
+export const StoryHero246: StoryObj = {
+  name: 'hero 246',
+  render: () => <Component110 />,
 };
 
-export const Hero247: StoryObj = {
-  name: 'Hero247',
-  render: () => <Hero247 />,
+export const StoryHero247: StoryObj = {
+  name: 'hero 247',
+  render: () => <Component111 />,
 };
 
-export const Hero248: StoryObj = {
-  name: 'Hero248',
-  render: () => <Hero248 />,
+export const StoryHero248: StoryObj = {
+  name: 'hero 248',
+  render: () => <Component112 />,
 };
 
-export const Hero25: StoryObj = {
-  name: 'Hero25',
-  render: () => <Hero25 />,
+export const StoryHero25: StoryObj = {
+  name: 'hero 25',
+  render: () => <Component113 />,
 };
 
-export const Hero256: StoryObj = {
-  name: 'Hero256',
-  render: () => <Hero256 />,
+export const StoryHero256: StoryObj = {
+  name: 'hero 256',
+  render: () => <Component114 />,
 };
 
-export const Hero258: StoryObj = {
-  name: 'Hero258',
-  render: () => <Hero258 />,
+export const StoryHero258: StoryObj = {
+  name: 'hero 258',
+  render: () => <Component115 />,
 };
 
-export const Hero259: StoryObj = {
-  name: 'Hero259',
-  render: () => <Hero259 />,
+export const StoryHero259: StoryObj = {
+  name: 'hero 259',
+  render: () => <Component116 />,
 };
 
-export const Hero26: StoryObj = {
-  name: 'Hero26',
-  render: () => <Hero26 />,
+export const StoryHero26: StoryObj = {
+  name: 'hero 26',
+  render: () => <Component117 />,
 };
 
-export const Hero27: StoryObj = {
-  name: 'Hero27',
-  render: () => <Hero27 />,
+export const StoryHero27: StoryObj = {
+  name: 'hero 27',
+  render: () => <Component118 />,
 };
 
-export const Hero28: StoryObj = {
-  name: 'Hero28',
-  render: () => <Hero28 />,
+export const StoryHero28: StoryObj = {
+  name: 'hero 28',
+  render: () => <Component119 />,
 };
 
-export const Hero29: StoryObj = {
-  name: 'Hero29',
-  render: () => <Hero29 />,
+export const StoryHero29: StoryObj = {
+  name: 'hero 29',
+  render: () => <Component120 />,
 };
 
-export const Hero30: StoryObj = {
-  name: 'Hero30',
-  render: () => <Hero30 />,
+export const StoryHero30: StoryObj = {
+  name: 'hero 30',
+  render: () => <Component121 />,
 };
 
-export const Hero31: StoryObj = {
-  name: 'Hero31',
-  render: () => <Hero31 />,
+export const StoryHero31: StoryObj = {
+  name: 'hero 31',
+  render: () => <Component122 />,
 };
 
-export const Hero32: StoryObj = {
-  name: 'Hero32',
-  render: () => <Hero32 />,
+export const StoryHero32: StoryObj = {
+  name: 'hero 32',
+  render: () => <Component123 />,
 };
 
-export const Hero33: StoryObj = {
-  name: 'Hero33',
-  render: () => <Hero33 />,
+export const StoryHero33: StoryObj = {
+  name: 'hero 33',
+  render: () => <Component124 />,
 };
 
-export const Hero34: StoryObj = {
-  name: 'Hero34',
-  render: () => <Hero34 />,
+export const StoryHero34: StoryObj = {
+  name: 'hero 34',
+  render: () => <Component125 />,
 };
 
-export const Hero35: StoryObj = {
-  name: 'Hero35',
-  render: () => <Hero35 />,
+export const StoryHero35: StoryObj = {
+  name: 'hero 35',
+  render: () => <Component126 />,
 };
 
-export const Hero36: StoryObj = {
-  name: 'Hero36',
-  render: () => <Hero36 />,
+export const StoryHero36: StoryObj = {
+  name: 'hero 36',
+  render: () => <Component127 />,
 };
 
-export const Hero37: StoryObj = {
-  name: 'Hero37',
-  render: () => <Hero37 />,
+export const StoryHero37: StoryObj = {
+  name: 'hero 37',
+  render: () => <Component128 />,
 };
 
-export const Hero38: StoryObj = {
-  name: 'Hero38',
-  render: () => <Hero38 />,
+export const StoryHero38: StoryObj = {
+  name: 'hero 38',
+  render: () => <Component129 />,
 };
 
-export const Hero39: StoryObj = {
-  name: 'Hero39',
-  render: () => <Hero39 />,
+export const StoryHero39: StoryObj = {
+  name: 'hero 39',
+  render: () => <Component130 />,
 };
 
-export const Hero4: StoryObj = {
-  name: 'Hero4',
-  render: () => <Hero4 />,
+export const StoryHero4: StoryObj = {
+  name: 'hero 4',
+  render: () => <Component131 />,
 };
 
-export const Hero40: StoryObj = {
-  name: 'Hero40',
-  render: () => <Hero40 />,
+export const StoryHero40: StoryObj = {
+  name: 'hero 40',
+  render: () => <Component132 />,
 };
 
-export const Hero49: StoryObj = {
-  name: 'Hero49',
-  render: () => <Hero49 />,
+export const StoryHero49: StoryObj = {
+  name: 'hero 49',
+  render: () => <Component133 />,
 };
 
-export const Hero5: StoryObj = {
-  name: 'Hero5',
-  render: () => <Hero5 />,
+export const StoryHero5: StoryObj = {
+  name: 'hero 5',
+  render: () => <Component134 />,
 };
 
-export const Hero50: StoryObj = {
-  name: 'Hero50',
-  render: () => <Hero50 />,
+export const StoryHero50: StoryObj = {
+  name: 'hero 50',
+  render: () => <Component135 />,
 };
 
-export const Hero51: StoryObj = {
-  name: 'Hero51',
-  render: () => <Hero51 />,
+export const StoryHero51: StoryObj = {
+  name: 'hero 51',
+  render: () => <Component136 />,
 };
 
-export const Hero53: StoryObj = {
-  name: 'Hero53',
-  render: () => <Hero53 />,
+export const StoryHero53: StoryObj = {
+  name: 'hero 53',
+  render: () => <Component137 />,
 };
 
-export const Hero55: StoryObj = {
-  name: 'Hero55',
-  render: () => <Hero55 />,
+export const StoryHero55: StoryObj = {
+  name: 'hero 55',
+  render: () => <Component138 />,
 };
 
-export const Hero57: StoryObj = {
-  name: 'Hero57',
-  render: () => <Hero57 />,
+export const StoryHero57: StoryObj = {
+  name: 'hero 57',
+  render: () => <Component139 />,
 };
 
-export const Hero58: StoryObj = {
-  name: 'Hero58',
-  render: () => <Hero58 />,
+export const StoryHero58: StoryObj = {
+  name: 'hero 58',
+  render: () => <Component140 />,
 };
 
-export const Hero59: StoryObj = {
-  name: 'Hero59',
-  render: () => <Hero59 />,
+export const StoryHero59: StoryObj = {
+  name: 'hero 59',
+  render: () => <Component141 />,
 };
 
-export const Hero6: StoryObj = {
-  name: 'Hero6',
-  render: () => <Hero6 />,
+export const StoryHero6: StoryObj = {
+  name: 'hero 6',
+  render: () => <Component142 />,
 };
 
-export const Hero60: StoryObj = {
-  name: 'Hero60',
-  render: () => <Hero60 />,
+export const StoryHero60: StoryObj = {
+  name: 'hero 60',
+  render: () => <Component143 />,
 };
 
-export const Hero64: StoryObj = {
-  name: 'Hero64',
-  render: () => <Hero64 />,
+export const StoryHero64: StoryObj = {
+  name: 'hero 64',
+  render: () => <Component144 />,
 };
 
-export const Hero68: StoryObj = {
-  name: 'Hero68',
-  render: () => <Hero68 />,
+export const StoryHero68: StoryObj = {
+  name: 'hero 68',
+  render: () => <Component145 />,
 };
 
-export const Hero70: StoryObj = {
-  name: 'Hero70',
-  render: () => <Hero70 />,
+export const StoryHero70: StoryObj = {
+  name: 'hero 70',
+  render: () => <Component146 />,
 };
 
-export const Hero71: StoryObj = {
-  name: 'Hero71',
-  render: () => <Hero71 />,
+export const StoryHero71: StoryObj = {
+  name: 'hero 71',
+  render: () => <Component147 />,
 };
 
-export const Hero74: StoryObj = {
-  name: 'Hero74',
-  render: () => <Hero74 />,
+export const StoryHero74: StoryObj = {
+  name: 'hero 74',
+  render: () => <Component148 />,
 };
 
-export const Hero75: StoryObj = {
-  name: 'Hero75',
-  render: () => <Hero75 />,
+export const StoryHero75: StoryObj = {
+  name: 'hero 75',
+  render: () => <Component149 />,
 };
 
-export const Hero76: StoryObj = {
-  name: 'Hero76',
-  render: () => <Hero76 />,
+export const StoryHero76: StoryObj = {
+  name: 'hero 76',
+  render: () => <Component150 />,
 };
 
-export const Hero79: StoryObj = {
-  name: 'Hero79',
-  render: () => <Hero79 />,
+export const StoryHero79: StoryObj = {
+  name: 'hero 79',
+  render: () => <Component151 />,
 };
 
-export const Hero8: StoryObj = {
-  name: 'Hero8',
-  render: () => <Hero8 />,
+export const StoryHero8: StoryObj = {
+  name: 'hero 8',
+  render: () => <Component152 />,
 };
 
-export const Hero80: StoryObj = {
-  name: 'Hero80',
-  render: () => <Hero80 />,
+export const StoryHero80: StoryObj = {
+  name: 'hero 80',
+  render: () => <Component153 />,
 };
 
-export const Hero82: StoryObj = {
-  name: 'Hero82',
-  render: () => <Hero82 />,
+export const StoryHero82: StoryObj = {
+  name: 'hero 82',
+  render: () => <Component154 />,
 };
 
-export const Hero83: StoryObj = {
-  name: 'Hero83',
-  render: () => <Hero83 />,
+export const StoryHero83: StoryObj = {
+  name: 'hero 83',
+  render: () => <Component155 />,
 };
 
-export const Hero84: StoryObj = {
-  name: 'Hero84',
-  render: () => <Hero84 />,
+export const StoryHero84: StoryObj = {
+  name: 'hero 84',
+  render: () => <Component156 />,
 };
 
-export const Hero85: StoryObj = {
-  name: 'Hero85',
-  render: () => <Hero85 />,
+export const StoryHero85: StoryObj = {
+  name: 'hero 85',
+  render: () => <Component157 />,
 };
 
-export const Hero86: StoryObj = {
-  name: 'Hero86',
-  render: () => <Hero86 />,
+export const StoryHero86: StoryObj = {
+  name: 'hero 86',
+  render: () => <Component158 />,
 };
 
-export const Hero87: StoryObj = {
-  name: 'Hero87',
-  render: () => <Hero87 />,
+export const StoryHero87: StoryObj = {
+  name: 'hero 87',
+  render: () => <Component159 />,
 };
 
-export const Hero89: StoryObj = {
-  name: 'Hero89',
-  render: () => <Hero89 />,
+export const StoryHero89: StoryObj = {
+  name: 'hero 89',
+  render: () => <Component160 />,
 };
 
-export const Hero9: StoryObj = {
-  name: 'Hero9',
-  render: () => <Hero9 />,
+export const StoryHero9: StoryObj = {
+  name: 'hero 9',
+  render: () => <Component161 />,
 };
 
-export const Hero90: StoryObj = {
-  name: 'Hero90',
-  render: () => <Hero90 />,
+export const StoryHero90: StoryObj = {
+  name: 'hero 90',
+  render: () => <Component162 />,
 };
 
-export const Hero91: StoryObj = {
-  name: 'Hero91',
-  render: () => <Hero91 />,
+export const StoryHero91: StoryObj = {
+  name: 'hero 91',
+  render: () => <Component163 />,
 };
 
-export const Hero99: StoryObj = {
-  name: 'Hero99',
-  render: () => <Hero99 />,
+export const StoryHero99: StoryObj = {
+  name: 'hero 99',
+  render: () => <Component164 />,
 };
 

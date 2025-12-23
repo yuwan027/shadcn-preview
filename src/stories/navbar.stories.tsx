@@ -1,21 +1,21 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Navbar10 from '@/components/blocks/navbar/navbar10';
-import Navbar11 from '@/components/blocks/navbar/navbar11';
-import Navbar14 from '@/components/blocks/navbar/navbar14';
-import Navbar17 from '@/components/blocks/navbar/navbar17';
-import Navbar18 from '@/components/blocks/navbar/navbar18';
-import Navbar2 from '@/components/blocks/navbar/navbar2';
-import Navbar21 from '@/components/blocks/navbar/navbar21';
-import Navbar22 from '@/components/blocks/navbar/navbar22';
-import Navbar24 from '@/components/blocks/navbar/navbar24';
-import Navbar29 from '@/components/blocks/navbar/navbar29';
-import Navbar3 from '@/components/blocks/navbar/navbar3';
-import Navbar4 from '@/components/blocks/navbar/navbar4';
-import Navbar6 from '@/components/blocks/navbar/navbar6';
-import Navbar7 from '@/components/blocks/navbar/navbar7';
-import Navbar8 from '@/components/blocks/navbar/navbar8';
-import Navbar9 from '@/components/blocks/navbar/navbar9';
+import Component0 from '@/components/blocks/navbar/navbar10';
+import Component1 from '@/components/blocks/navbar/navbar11';
+import Component2 from '@/components/blocks/navbar/navbar14';
+import Component3 from '@/components/blocks/navbar/navbar17';
+import Component4 from '@/components/blocks/navbar/navbar18';
+import Component5 from '@/components/blocks/navbar/navbar2';
+import Component6 from '@/components/blocks/navbar/navbar21';
+import Component7 from '@/components/blocks/navbar/navbar22';
+import Component8 from '@/components/blocks/navbar/navbar24';
+import Component9 from '@/components/blocks/navbar/navbar29';
+import Component10 from '@/components/blocks/navbar/navbar3';
+import Component11 from '@/components/blocks/navbar/navbar4';
+import Component12 from '@/components/blocks/navbar/navbar6';
+import Component13 from '@/components/blocks/navbar/navbar7';
+import Component14 from '@/components/blocks/navbar/navbar8';
+import Component15 from '@/components/blocks/navbar/navbar9';
 
 const meta: Meta = {
   title: 'Blocks/Navbar',
@@ -24,83 +24,83 @@ const meta: Meta = {
 
 export default meta;
 
-export const Navbar10: StoryObj = {
-  name: 'Navbar10',
-  render: () => <Navbar10 />,
+export const StoryNavbar10: StoryObj = {
+  name: 'navbar 10',
+  render: () => <Component0 />,
 };
 
-export const Navbar11: StoryObj = {
-  name: 'Navbar11',
-  render: () => <Navbar11 />,
+export const StoryNavbar11: StoryObj = {
+  name: 'navbar 11',
+  render: () => <Component1 />,
 };
 
-export const Navbar14: StoryObj = {
-  name: 'Navbar14',
-  render: () => <Navbar14 />,
+export const StoryNavbar14: StoryObj = {
+  name: 'navbar 14',
+  render: () => <Component2 />,
 };
 
-export const Navbar17: StoryObj = {
-  name: 'Navbar17',
-  render: () => <Navbar17 />,
+export const StoryNavbar17: StoryObj = {
+  name: 'navbar 17',
+  render: () => <Component3 />,
 };
 
-export const Navbar18: StoryObj = {
-  name: 'Navbar18',
-  render: () => <Navbar18 />,
+export const StoryNavbar18: StoryObj = {
+  name: 'navbar 18',
+  render: () => <Component4 />,
 };
 
-export const Navbar2: StoryObj = {
-  name: 'Navbar2',
-  render: () => <Navbar2 />,
+export const StoryNavbar2: StoryObj = {
+  name: 'navbar 2',
+  render: () => <Component5 />,
 };
 
-export const Navbar21: StoryObj = {
-  name: 'Navbar21',
-  render: () => <Navbar21 />,
+export const StoryNavbar21: StoryObj = {
+  name: 'navbar 21',
+  render: () => <Component6 />,
 };
 
-export const Navbar22: StoryObj = {
-  name: 'Navbar22',
-  render: () => <Navbar22 />,
+export const StoryNavbar22: StoryObj = {
+  name: 'navbar 22',
+  render: () => <Component7 />,
 };
 
-export const Navbar24: StoryObj = {
-  name: 'Navbar24',
-  render: () => <Navbar24 />,
+export const StoryNavbar24: StoryObj = {
+  name: 'navbar 24',
+  render: () => <Component8 />,
 };
 
-export const Navbar29: StoryObj = {
-  name: 'Navbar29',
-  render: () => <Navbar29 />,
+export const StoryNavbar29: StoryObj = {
+  name: 'navbar 29',
+  render: () => <Component9 />,
 };
 
-export const Navbar3: StoryObj = {
-  name: 'Navbar3',
-  render: () => <Navbar3 />,
+export const StoryNavbar3: StoryObj = {
+  name: 'navbar 3',
+  render: () => <Component10 />,
 };
 
-export const Navbar4: StoryObj = {
-  name: 'Navbar4',
-  render: () => <Navbar4 />,
+export const StoryNavbar4: StoryObj = {
+  name: 'navbar 4',
+  render: () => <Component11 />,
 };
 
-export const Navbar6: StoryObj = {
-  name: 'Navbar6',
-  render: () => <Navbar6 />,
+export const StoryNavbar6: StoryObj = {
+  name: 'navbar 6',
+  render: () => <Component12 />,
 };
 
-export const Navbar7: StoryObj = {
-  name: 'Navbar7',
-  render: () => <Navbar7 />,
+export const StoryNavbar7: StoryObj = {
+  name: 'navbar 7',
+  render: () => <Component13 />,
 };
 
-export const Navbar8: StoryObj = {
-  name: 'Navbar8',
-  render: () => <Navbar8 />,
+export const StoryNavbar8: StoryObj = {
+  name: 'navbar 8',
+  render: () => <Component14 />,
 };
 
-export const Navbar9: StoryObj = {
-  name: 'Navbar9',
-  render: () => <Navbar9 />,
+export const StoryNavbar9: StoryObj = {
+  name: 'navbar 9',
+  render: () => <Component15 />,
 };
 

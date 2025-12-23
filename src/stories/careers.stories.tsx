@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Careers2 from '@/components/blocks/careers/careers2';
-import Careers3 from '@/components/blocks/careers/careers3';
-import Careers5 from '@/components/blocks/careers/careers5';
-import Careers6 from '@/components/blocks/careers/careers6';
-import Careers7 from '@/components/blocks/careers/careers7';
-import Careers8 from '@/components/blocks/careers/careers8';
-import Careers9 from '@/components/blocks/careers/careers9';
+import Component0 from '@/components/blocks/careers/careers2';
+import Component1 from '@/components/blocks/careers/careers3';
+import Component2 from '@/components/blocks/careers/careers5';
+import Component3 from '@/components/blocks/careers/careers6';
+import Component4 from '@/components/blocks/careers/careers7';
+import Component5 from '@/components/blocks/careers/careers8';
+import Component6 from '@/components/blocks/careers/careers9';
 
 const meta: Meta = {
   title: 'Blocks/Careers',
@@ -15,38 +15,38 @@ const meta: Meta = {
 
 export default meta;
 
-export const Careers2: StoryObj = {
-  name: 'Careers2',
-  render: () => <Careers2 />,
+export const StoryCareers2: StoryObj = {
+  name: 'careers 2',
+  render: () => <Component0 />,
 };
 
-export const Careers3: StoryObj = {
-  name: 'Careers3',
-  render: () => <Careers3 />,
+export const StoryCareers3: StoryObj = {
+  name: 'careers 3',
+  render: () => <Component1 />,
 };
 
-export const Careers5: StoryObj = {
-  name: 'Careers5',
-  render: () => <Careers5 />,
+export const StoryCareers5: StoryObj = {
+  name: 'careers 5',
+  render: () => <Component2 />,
 };
 
-export const Careers6: StoryObj = {
-  name: 'Careers6',
-  render: () => <Careers6 />,
+export const StoryCareers6: StoryObj = {
+  name: 'careers 6',
+  render: () => <Component3 />,
 };
 
-export const Careers7: StoryObj = {
-  name: 'Careers7',
-  render: () => <Careers7 />,
+export const StoryCareers7: StoryObj = {
+  name: 'careers 7',
+  render: () => <Component4 />,
 };
 
-export const Careers8: StoryObj = {
-  name: 'Careers8',
-  render: () => <Careers8 />,
+export const StoryCareers8: StoryObj = {
+  name: 'careers 8',
+  render: () => <Component5 />,
 };
 
-export const Careers9: StoryObj = {
-  name: 'Careers9',
-  render: () => <Careers9 />,
+export const StoryCareers9: StoryObj = {
+  name: 'careers 9',
+  render: () => <Component6 />,
 };
 

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Industries3 from '@/components/blocks/industries/industries3';
-import Industries4 from '@/components/blocks/industries/industries4';
+import Component0 from '@/components/blocks/industries/industries3';
+import Component1 from '@/components/blocks/industries/industries4';
 
 const meta: Meta = {
   title: 'Blocks/Industries',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const Industries3: StoryObj = {
-  name: 'Industries3',
-  render: () => <Industries3 />,
+export const StoryIndustries3: StoryObj = {
+  name: 'industries 3',
+  render: () => <Component0 />,
 };
 
-export const Industries4: StoryObj = {
-  name: 'Industries4',
-  render: () => <Industries4 />,
+export const StoryIndustries4: StoryObj = {
+  name: 'industries 4',
+  render: () => <Component1 />,
 };
 

@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Signup10 from '@/components/blocks/signup/signup10';
-import Signup3 from '@/components/blocks/signup/signup3';
-import Signup4 from '@/components/blocks/signup/signup4';
-import Signup5 from '@/components/blocks/signup/signup5';
-import Signup6 from '@/components/blocks/signup/signup6';
-import Signup7 from '@/components/blocks/signup/signup7';
-import Signup8 from '@/components/blocks/signup/signup8';
-import Signup9 from '@/components/blocks/signup/signup9';
+import Component0 from '@/components/blocks/signup/signup10';
+import Component1 from '@/components/blocks/signup/signup3';
+import Component2 from '@/components/blocks/signup/signup4';
+import Component3 from '@/components/blocks/signup/signup5';
+import Component4 from '@/components/blocks/signup/signup6';
+import Component5 from '@/components/blocks/signup/signup7';
+import Component6 from '@/components/blocks/signup/signup8';
+import Component7 from '@/components/blocks/signup/signup9';
 
 const meta: Meta = {
   title: 'Blocks/Signup',
@@ -16,43 +16,43 @@ const meta: Meta = {
 
 export default meta;
 
-export const Signup10: StoryObj = {
-  name: 'Signup10',
-  render: () => <Signup10 />,
+export const StorySignup10: StoryObj = {
+  name: 'signup 10',
+  render: () => <Component0 />,
 };
 
-export const Signup3: StoryObj = {
-  name: 'Signup3',
-  render: () => <Signup3 />,
+export const StorySignup3: StoryObj = {
+  name: 'signup 3',
+  render: () => <Component1 />,
 };
 
-export const Signup4: StoryObj = {
-  name: 'Signup4',
-  render: () => <Signup4 />,
+export const StorySignup4: StoryObj = {
+  name: 'signup 4',
+  render: () => <Component2 />,
 };
 
-export const Signup5: StoryObj = {
-  name: 'Signup5',
-  render: () => <Signup5 />,
+export const StorySignup5: StoryObj = {
+  name: 'signup 5',
+  render: () => <Component3 />,
 };
 
-export const Signup6: StoryObj = {
-  name: 'Signup6',
-  render: () => <Signup6 />,
+export const StorySignup6: StoryObj = {
+  name: 'signup 6',
+  render: () => <Component4 />,
 };
 
-export const Signup7: StoryObj = {
-  name: 'Signup7',
-  render: () => <Signup7 />,
+export const StorySignup7: StoryObj = {
+  name: 'signup 7',
+  render: () => <Component5 />,
 };
 
-export const Signup8: StoryObj = {
-  name: 'Signup8',
-  render: () => <Signup8 />,
+export const StorySignup8: StoryObj = {
+  name: 'signup 8',
+  render: () => <Component6 />,
 };
 
-export const Signup9: StoryObj = {
-  name: 'Signup9',
-  render: () => <Signup9 />,
+export const StorySignup9: StoryObj = {
+  name: 'signup 9',
+  render: () => <Component7 />,
 };
 

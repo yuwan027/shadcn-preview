@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Reviews1 from '@/components/blocks/reviews/reviews1';
-import Reviews18 from '@/components/blocks/reviews/reviews18';
-import Reviews2 from '@/components/blocks/reviews/reviews2';
-import Reviews23 from '@/components/blocks/reviews/reviews23';
-import Reviews3 from '@/components/blocks/reviews/reviews3';
-import Reviews4 from '@/components/blocks/reviews/reviews4';
-import Reviews5 from '@/components/blocks/reviews/reviews5';
-import Reviews6 from '@/components/blocks/reviews/reviews6';
-import Reviews8 from '@/components/blocks/reviews/reviews8';
-import Reviews9 from '@/components/blocks/reviews/reviews9';
+import Component0 from '@/components/blocks/reviews/reviews1';
+import Component1 from '@/components/blocks/reviews/reviews18';
+import Component2 from '@/components/blocks/reviews/reviews2';
+import Component3 from '@/components/blocks/reviews/reviews23';
+import Component4 from '@/components/blocks/reviews/reviews3';
+import Component5 from '@/components/blocks/reviews/reviews4';
+import Component6 from '@/components/blocks/reviews/reviews5';
+import Component7 from '@/components/blocks/reviews/reviews6';
+import Component8 from '@/components/blocks/reviews/reviews8';
+import Component9 from '@/components/blocks/reviews/reviews9';
 
 const meta: Meta = {
   title: 'Blocks/Reviews',
@@ -18,53 +18,53 @@ const meta: Meta = {
 
 export default meta;
 
-export const Reviews1: StoryObj = {
-  name: 'Reviews1',
-  render: () => <Reviews1 />,
+export const StoryReviews1: StoryObj = {
+  name: 'reviews 1',
+  render: () => <Component0 />,
 };
 
-export const Reviews18: StoryObj = {
-  name: 'Reviews18',
-  render: () => <Reviews18 />,
+export const StoryReviews18: StoryObj = {
+  name: 'reviews 18',
+  render: () => <Component1 />,
 };
 
-export const Reviews2: StoryObj = {
-  name: 'Reviews2',
-  render: () => <Reviews2 />,
+export const StoryReviews2: StoryObj = {
+  name: 'reviews 2',
+  render: () => <Component2 />,
 };
 
-export const Reviews23: StoryObj = {
-  name: 'Reviews23',
-  render: () => <Reviews23 />,
+export const StoryReviews23: StoryObj = {
+  name: 'reviews 23',
+  render: () => <Component3 />,
 };
 
-export const Reviews3: StoryObj = {
-  name: 'Reviews3',
-  render: () => <Reviews3 />,
+export const StoryReviews3: StoryObj = {
+  name: 'reviews 3',
+  render: () => <Component4 />,
 };
 
-export const Reviews4: StoryObj = {
-  name: 'Reviews4',
-  render: () => <Reviews4 />,
+export const StoryReviews4: StoryObj = {
+  name: 'reviews 4',
+  render: () => <Component5 />,
 };
 
-export const Reviews5: StoryObj = {
-  name: 'Reviews5',
-  render: () => <Reviews5 />,
+export const StoryReviews5: StoryObj = {
+  name: 'reviews 5',
+  render: () => <Component6 />,
 };
 
-export const Reviews6: StoryObj = {
-  name: 'Reviews6',
-  render: () => <Reviews6 />,
+export const StoryReviews6: StoryObj = {
+  name: 'reviews 6',
+  render: () => <Component7 />,
 };
 
-export const Reviews8: StoryObj = {
-  name: 'Reviews8',
-  render: () => <Reviews8 />,
+export const StoryReviews8: StoryObj = {
+  name: 'reviews 8',
+  render: () => <Component8 />,
 };
 
-export const Reviews9: StoryObj = {
-  name: 'Reviews9',
-  render: () => <Reviews9 />,
+export const StoryReviews9: StoryObj = {
+  name: 'reviews 9',
+  render: () => <Component9 />,
 };
 

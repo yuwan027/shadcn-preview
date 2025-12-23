@@ -1,36 +1,36 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Pricing1 from '@/components/blocks/pricing/pricing1';
-import Pricing10 from '@/components/blocks/pricing/pricing10';
-import Pricing12 from '@/components/blocks/pricing/pricing12';
-import Pricing13 from '@/components/blocks/pricing/pricing13';
-import Pricing14 from '@/components/blocks/pricing/pricing14';
-import Pricing15 from '@/components/blocks/pricing/pricing15';
-import Pricing16 from '@/components/blocks/pricing/pricing16';
-import Pricing20 from '@/components/blocks/pricing/pricing20';
-import Pricing21 from '@/components/blocks/pricing/pricing21';
-import Pricing22 from '@/components/blocks/pricing/pricing22';
-import Pricing23 from '@/components/blocks/pricing/pricing23';
-import Pricing24 from '@/components/blocks/pricing/pricing24';
-import Pricing26 from '@/components/blocks/pricing/pricing26';
-import Pricing27 from '@/components/blocks/pricing/pricing27';
-import Pricing28 from '@/components/blocks/pricing/pricing28';
-import Pricing29 from '@/components/blocks/pricing/pricing29';
-import Pricing3 from '@/components/blocks/pricing/pricing3';
-import Pricing30 from '@/components/blocks/pricing/pricing30';
-import Pricing31 from '@/components/blocks/pricing/pricing31';
-import Pricing32 from '@/components/blocks/pricing/pricing32';
-import Pricing33 from '@/components/blocks/pricing/pricing33';
-import Pricing34 from '@/components/blocks/pricing/pricing34';
-import Pricing35 from '@/components/blocks/pricing/pricing35';
-import Pricing36 from '@/components/blocks/pricing/pricing36';
-import Pricing37 from '@/components/blocks/pricing/pricing37';
-import Pricing38 from '@/components/blocks/pricing/pricing38';
-import Pricing40 from '@/components/blocks/pricing/pricing40';
-import Pricing5 from '@/components/blocks/pricing/pricing5';
-import Pricing7 from '@/components/blocks/pricing/pricing7';
-import Pricing8 from '@/components/blocks/pricing/pricing8';
-import Pricing9 from '@/components/blocks/pricing/pricing9';
+import Component0 from '@/components/blocks/pricing/pricing1';
+import Component1 from '@/components/blocks/pricing/pricing10';
+import Component2 from '@/components/blocks/pricing/pricing12';
+import Component3 from '@/components/blocks/pricing/pricing13';
+import Component4 from '@/components/blocks/pricing/pricing14';
+import Component5 from '@/components/blocks/pricing/pricing15';
+import Component6 from '@/components/blocks/pricing/pricing16';
+import Component7 from '@/components/blocks/pricing/pricing20';
+import Component8 from '@/components/blocks/pricing/pricing21';
+import Component9 from '@/components/blocks/pricing/pricing22';
+import Component10 from '@/components/blocks/pricing/pricing23';
+import Component11 from '@/components/blocks/pricing/pricing24';
+import Component12 from '@/components/blocks/pricing/pricing26';
+import Component13 from '@/components/blocks/pricing/pricing27';
+import Component14 from '@/components/blocks/pricing/pricing28';
+import Component15 from '@/components/blocks/pricing/pricing29';
+import Component16 from '@/components/blocks/pricing/pricing3';
+import Component17 from '@/components/blocks/pricing/pricing30';
+import Component18 from '@/components/blocks/pricing/pricing31';
+import Component19 from '@/components/blocks/pricing/pricing32';
+import Component20 from '@/components/blocks/pricing/pricing33';
+import Component21 from '@/components/blocks/pricing/pricing34';
+import Component22 from '@/components/blocks/pricing/pricing35';
+import Component23 from '@/components/blocks/pricing/pricing36';
+import Component24 from '@/components/blocks/pricing/pricing37';
+import Component25 from '@/components/blocks/pricing/pricing38';
+import Component26 from '@/components/blocks/pricing/pricing40';
+import Component27 from '@/components/blocks/pricing/pricing5';
+import Component28 from '@/components/blocks/pricing/pricing7';
+import Component29 from '@/components/blocks/pricing/pricing8';
+import Component30 from '@/components/blocks/pricing/pricing9';
 
 const meta: Meta = {
   title: 'Blocks/Pricing',
@@ -39,158 +39,158 @@ const meta: Meta = {
 
 export default meta;
 
-export const Pricing1: StoryObj = {
-  name: 'Pricing1',
-  render: () => <Pricing1 />,
+export const StoryPricing1: StoryObj = {
+  name: 'pricing 1',
+  render: () => <Component0 />,
 };
 
-export const Pricing10: StoryObj = {
-  name: 'Pricing10',
-  render: () => <Pricing10 />,
+export const StoryPricing10: StoryObj = {
+  name: 'pricing 10',
+  render: () => <Component1 />,
 };
 
-export const Pricing12: StoryObj = {
-  name: 'Pricing12',
-  render: () => <Pricing12 />,
+export const StoryPricing12: StoryObj = {
+  name: 'pricing 12',
+  render: () => <Component2 />,
 };
 
-export const Pricing13: StoryObj = {
-  name: 'Pricing13',
-  render: () => <Pricing13 />,
+export const StoryPricing13: StoryObj = {
+  name: 'pricing 13',
+  render: () => <Component3 />,
 };
 
-export const Pricing14: StoryObj = {
-  name: 'Pricing14',
-  render: () => <Pricing14 />,
+export const StoryPricing14: StoryObj = {
+  name: 'pricing 14',
+  render: () => <Component4 />,
 };
 
-export const Pricing15: StoryObj = {
-  name: 'Pricing15',
-  render: () => <Pricing15 />,
+export const StoryPricing15: StoryObj = {
+  name: 'pricing 15',
+  render: () => <Component5 />,
 };
 
-export const Pricing16: StoryObj = {
-  name: 'Pricing16',
-  render: () => <Pricing16 />,
+export const StoryPricing16: StoryObj = {
+  name: 'pricing 16',
+  render: () => <Component6 />,
 };
 
-export const Pricing20: StoryObj = {
-  name: 'Pricing20',
-  render: () => <Pricing20 />,
+export const StoryPricing20: StoryObj = {
+  name: 'pricing 20',
+  render: () => <Component7 />,
 };
 
-export const Pricing21: StoryObj = {
-  name: 'Pricing21',
-  render: () => <Pricing21 />,
+export const StoryPricing21: StoryObj = {
+  name: 'pricing 21',
+  render: () => <Component8 />,
 };
 
-export const Pricing22: StoryObj = {
-  name: 'Pricing22',
-  render: () => <Pricing22 />,
+export const StoryPricing22: StoryObj = {
+  name: 'pricing 22',
+  render: () => <Component9 />,
 };
 
-export const Pricing23: StoryObj = {
-  name: 'Pricing23',
-  render: () => <Pricing23 />,
+export const StoryPricing23: StoryObj = {
+  name: 'pricing 23',
+  render: () => <Component10 />,
 };
 
-export const Pricing24: StoryObj = {
-  name: 'Pricing24',
-  render: () => <Pricing24 />,
+export const StoryPricing24: StoryObj = {
+  name: 'pricing 24',
+  render: () => <Component11 />,
 };
 
-export const Pricing26: StoryObj = {
-  name: 'Pricing26',
-  render: () => <Pricing26 />,
+export const StoryPricing26: StoryObj = {
+  name: 'pricing 26',
+  render: () => <Component12 />,
 };
 
-export const Pricing27: StoryObj = {
-  name: 'Pricing27',
-  render: () => <Pricing27 />,
+export const StoryPricing27: StoryObj = {
+  name: 'pricing 27',
+  render: () => <Component13 />,
 };
 
-export const Pricing28: StoryObj = {
-  name: 'Pricing28',
-  render: () => <Pricing28 />,
+export const StoryPricing28: StoryObj = {
+  name: 'pricing 28',
+  render: () => <Component14 />,
 };
 
-export const Pricing29: StoryObj = {
-  name: 'Pricing29',
-  render: () => <Pricing29 />,
+export const StoryPricing29: StoryObj = {
+  name: 'pricing 29',
+  render: () => <Component15 />,
 };
 
-export const Pricing3: StoryObj = {
-  name: 'Pricing3',
-  render: () => <Pricing3 />,
+export const StoryPricing3: StoryObj = {
+  name: 'pricing 3',
+  render: () => <Component16 />,
 };
 
-export const Pricing30: StoryObj = {
-  name: 'Pricing30',
-  render: () => <Pricing30 />,
+export const StoryPricing30: StoryObj = {
+  name: 'pricing 30',
+  render: () => <Component17 />,
 };
 
-export const Pricing31: StoryObj = {
-  name: 'Pricing31',
-  render: () => <Pricing31 />,
+export const StoryPricing31: StoryObj = {
+  name: 'pricing 31',
+  render: () => <Component18 />,
 };
 
-export const Pricing32: StoryObj = {
-  name: 'Pricing32',
-  render: () => <Pricing32 />,
+export const StoryPricing32: StoryObj = {
+  name: 'pricing 32',
+  render: () => <Component19 />,
 };
 
-export const Pricing33: StoryObj = {
-  name: 'Pricing33',
-  render: () => <Pricing33 />,
+export const StoryPricing33: StoryObj = {
+  name: 'pricing 33',
+  render: () => <Component20 />,
 };
 
-export const Pricing34: StoryObj = {
-  name: 'Pricing34',
-  render: () => <Pricing34 />,
+export const StoryPricing34: StoryObj = {
+  name: 'pricing 34',
+  render: () => <Component21 />,
 };
 
-export const Pricing35: StoryObj = {
-  name: 'Pricing35',
-  render: () => <Pricing35 />,
+export const StoryPricing35: StoryObj = {
+  name: 'pricing 35',
+  render: () => <Component22 />,
 };
 
-export const Pricing36: StoryObj = {
-  name: 'Pricing36',
-  render: () => <Pricing36 />,
+export const StoryPricing36: StoryObj = {
+  name: 'pricing 36',
+  render: () => <Component23 />,
 };
 
-export const Pricing37: StoryObj = {
-  name: 'Pricing37',
-  render: () => <Pricing37 />,
+export const StoryPricing37: StoryObj = {
+  name: 'pricing 37',
+  render: () => <Component24 />,
 };
 
-export const Pricing38: StoryObj = {
-  name: 'Pricing38',
-  render: () => <Pricing38 />,
+export const StoryPricing38: StoryObj = {
+  name: 'pricing 38',
+  render: () => <Component25 />,
 };
 
-export const Pricing40: StoryObj = {
-  name: 'Pricing40',
-  render: () => <Pricing40 />,
+export const StoryPricing40: StoryObj = {
+  name: 'pricing 40',
+  render: () => <Component26 />,
 };
 
-export const Pricing5: StoryObj = {
-  name: 'Pricing5',
-  render: () => <Pricing5 />,
+export const StoryPricing5: StoryObj = {
+  name: 'pricing 5',
+  render: () => <Component27 />,
 };
 
-export const Pricing7: StoryObj = {
-  name: 'Pricing7',
-  render: () => <Pricing7 />,
+export const StoryPricing7: StoryObj = {
+  name: 'pricing 7',
+  render: () => <Component28 />,
 };
 
-export const Pricing8: StoryObj = {
-  name: 'Pricing8',
-  render: () => <Pricing8 />,
+export const StoryPricing8: StoryObj = {
+  name: 'pricing 8',
+  render: () => <Component29 />,
 };
 
-export const Pricing9: StoryObj = {
-  name: 'Pricing9',
-  render: () => <Pricing9 />,
+export const StoryPricing9: StoryObj = {
+  name: 'pricing 9',
+  render: () => <Component30 />,
 };
 

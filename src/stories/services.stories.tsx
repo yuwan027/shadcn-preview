@@ -1,22 +1,22 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Services1 from '@/components/blocks/services/services1';
-import Services10 from '@/components/blocks/services/services10';
-import Services11 from '@/components/blocks/services/services11';
-import Services13 from '@/components/blocks/services/services13';
-import Services14 from '@/components/blocks/services/services14';
-import Services15 from '@/components/blocks/services/services15';
-import Services16 from '@/components/blocks/services/services16';
-import Services18 from '@/components/blocks/services/services18';
-import Services19 from '@/components/blocks/services/services19';
-import Services20 from '@/components/blocks/services/services20';
-import Services21 from '@/components/blocks/services/services21';
-import Services3 from '@/components/blocks/services/services3';
-import Services5 from '@/components/blocks/services/services5';
-import Services6 from '@/components/blocks/services/services6';
-import Services7 from '@/components/blocks/services/services7';
-import Services8 from '@/components/blocks/services/services8';
-import Services9 from '@/components/blocks/services/services9';
+import Component0 from '@/components/blocks/services/services1';
+import Component1 from '@/components/blocks/services/services10';
+import Component2 from '@/components/blocks/services/services11';
+import Component3 from '@/components/blocks/services/services13';
+import Component4 from '@/components/blocks/services/services14';
+import Component5 from '@/components/blocks/services/services15';
+import Component6 from '@/components/blocks/services/services16';
+import Component7 from '@/components/blocks/services/services18';
+import Component8 from '@/components/blocks/services/services19';
+import Component9 from '@/components/blocks/services/services20';
+import Component10 from '@/components/blocks/services/services21';
+import Component11 from '@/components/blocks/services/services3';
+import Component12 from '@/components/blocks/services/services5';
+import Component13 from '@/components/blocks/services/services6';
+import Component14 from '@/components/blocks/services/services7';
+import Component15 from '@/components/blocks/services/services8';
+import Component16 from '@/components/blocks/services/services9';
 
 const meta: Meta = {
   title: 'Blocks/Services',
@@ -25,88 +25,88 @@ const meta: Meta = {
 
 export default meta;
 
-export const Services1: StoryObj = {
-  name: 'Services1',
-  render: () => <Services1 />,
+export const StoryServices1: StoryObj = {
+  name: 'services 1',
+  render: () => <Component0 />,
 };
 
-export const Services10: StoryObj = {
-  name: 'Services10',
-  render: () => <Services10 />,
+export const StoryServices10: StoryObj = {
+  name: 'services 10',
+  render: () => <Component1 />,
 };
 
-export const Services11: StoryObj = {
-  name: 'Services11',
-  render: () => <Services11 />,
+export const StoryServices11: StoryObj = {
+  name: 'services 11',
+  render: () => <Component2 />,
 };
 
-export const Services13: StoryObj = {
-  name: 'Services13',
-  render: () => <Services13 />,
+export const StoryServices13: StoryObj = {
+  name: 'services 13',
+  render: () => <Component3 />,
 };
 
-export const Services14: StoryObj = {
-  name: 'Services14',
-  render: () => <Services14 />,
+export const StoryServices14: StoryObj = {
+  name: 'services 14',
+  render: () => <Component4 />,
 };
 
-export const Services15: StoryObj = {
-  name: 'Services15',
-  render: () => <Services15 />,
+export const StoryServices15: StoryObj = {
+  name: 'services 15',
+  render: () => <Component5 />,
 };
 
-export const Services16: StoryObj = {
-  name: 'Services16',
-  render: () => <Services16 />,
+export const StoryServices16: StoryObj = {
+  name: 'services 16',
+  render: () => <Component6 />,
 };
 
-export const Services18: StoryObj = {
-  name: 'Services18',
-  render: () => <Services18 />,
+export const StoryServices18: StoryObj = {
+  name: 'services 18',
+  render: () => <Component7 />,
 };
 
-export const Services19: StoryObj = {
-  name: 'Services19',
-  render: () => <Services19 />,
+export const StoryServices19: StoryObj = {
+  name: 'services 19',
+  render: () => <Component8 />,
 };
 
-export const Services20: StoryObj = {
-  name: 'Services20',
-  render: () => <Services20 />,
+export const StoryServices20: StoryObj = {
+  name: 'services 20',
+  render: () => <Component9 />,
 };
 
-export const Services21: StoryObj = {
-  name: 'Services21',
-  render: () => <Services21 />,
+export const StoryServices21: StoryObj = {
+  name: 'services 21',
+  render: () => <Component10 />,
 };
 
-export const Services3: StoryObj = {
-  name: 'Services3',
-  render: () => <Services3 />,
+export const StoryServices3: StoryObj = {
+  name: 'services 3',
+  render: () => <Component11 />,
 };
 
-export const Services5: StoryObj = {
-  name: 'Services5',
-  render: () => <Services5 />,
+export const StoryServices5: StoryObj = {
+  name: 'services 5',
+  render: () => <Component12 />,
 };
 
-export const Services6: StoryObj = {
-  name: 'Services6',
-  render: () => <Services6 />,
+export const StoryServices6: StoryObj = {
+  name: 'services 6',
+  render: () => <Component13 />,
 };
 
-export const Services7: StoryObj = {
-  name: 'Services7',
-  render: () => <Services7 />,
+export const StoryServices7: StoryObj = {
+  name: 'services 7',
+  render: () => <Component14 />,
 };
 
-export const Services8: StoryObj = {
-  name: 'Services8',
-  render: () => <Services8 />,
+export const StoryServices8: StoryObj = {
+  name: 'services 8',
+  render: () => <Component15 />,
 };
 
-export const Services9: StoryObj = {
-  name: 'Services9',
-  render: () => <Services9 />,
+export const StoryServices9: StoryObj = {
+  name: 'services 9',
+  render: () => <Component16 />,
 };
 

@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Process2 from '@/components/blocks/process/process2';
-import Process3 from '@/components/blocks/process/process3';
-import Process4 from '@/components/blocks/process/process4';
+import Component0 from '@/components/blocks/process/process2';
+import Component1 from '@/components/blocks/process/process3';
+import Component2 from '@/components/blocks/process/process4';
 
 const meta: Meta = {
   title: 'Blocks/Process',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const Process2: StoryObj = {
-  name: 'Process2',
-  render: () => <Process2 />,
+export const StoryProcess2: StoryObj = {
+  name: 'process 2',
+  render: () => <Component0 />,
 };
 
-export const Process3: StoryObj = {
-  name: 'Process3',
-  render: () => <Process3 />,
+export const StoryProcess3: StoryObj = {
+  name: 'process 3',
+  render: () => <Component1 />,
 };
 
-export const Process4: StoryObj = {
-  name: 'Process4',
-  render: () => <Process4 />,
+export const StoryProcess4: StoryObj = {
+  name: 'process 4',
+  render: () => <Component2 />,
 };
 

@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Logos1 from '@/components/blocks/logos/logos1';
-import Logos10 from '@/components/blocks/logos/logos10';
-import Logos11 from '@/components/blocks/logos/logos11';
-import Logos12 from '@/components/blocks/logos/logos12';
-import Logos13 from '@/components/blocks/logos/logos13';
-import Logos2 from '@/components/blocks/logos/logos2';
-import Logos3 from '@/components/blocks/logos/logos3';
-import Logos4 from '@/components/blocks/logos/logos4';
-import Logos5 from '@/components/blocks/logos/logos5';
-import Logos7 from '@/components/blocks/logos/logos7';
-import Logos9 from '@/components/blocks/logos/logos9';
+import Component0 from '@/components/blocks/logos/logos1';
+import Component1 from '@/components/blocks/logos/logos10';
+import Component2 from '@/components/blocks/logos/logos11';
+import Component3 from '@/components/blocks/logos/logos12';
+import Component4 from '@/components/blocks/logos/logos13';
+import Component5 from '@/components/blocks/logos/logos2';
+import Component6 from '@/components/blocks/logos/logos3';
+import Component7 from '@/components/blocks/logos/logos4';
+import Component8 from '@/components/blocks/logos/logos5';
+import Component9 from '@/components/blocks/logos/logos7';
+import Component10 from '@/components/blocks/logos/logos9';
 
 const meta: Meta = {
   title: 'Blocks/Logos',
@@ -19,58 +19,58 @@ const meta: Meta = {
 
 export default meta;
 
-export const Logos1: StoryObj = {
-  name: 'Logos1',
-  render: () => <Logos1 />,
+export const StoryLogos1: StoryObj = {
+  name: 'logos 1',
+  render: () => <Component0 />,
 };
 
-export const Logos10: StoryObj = {
-  name: 'Logos10',
-  render: () => <Logos10 />,
+export const StoryLogos10: StoryObj = {
+  name: 'logos 10',
+  render: () => <Component1 />,
 };
 
-export const Logos11: StoryObj = {
-  name: 'Logos11',
-  render: () => <Logos11 />,
+export const StoryLogos11: StoryObj = {
+  name: 'logos 11',
+  render: () => <Component2 />,
 };
 
-export const Logos12: StoryObj = {
-  name: 'Logos12',
-  render: () => <Logos12 />,
+export const StoryLogos12: StoryObj = {
+  name: 'logos 12',
+  render: () => <Component3 />,
 };
 
-export const Logos13: StoryObj = {
-  name: 'Logos13',
-  render: () => <Logos13 />,
+export const StoryLogos13: StoryObj = {
+  name: 'logos 13',
+  render: () => <Component4 />,
 };
 
-export const Logos2: StoryObj = {
-  name: 'Logos2',
-  render: () => <Logos2 />,
+export const StoryLogos2: StoryObj = {
+  name: 'logos 2',
+  render: () => <Component5 />,
 };
 
-export const Logos3: StoryObj = {
-  name: 'Logos3',
-  render: () => <Logos3 />,
+export const StoryLogos3: StoryObj = {
+  name: 'logos 3',
+  render: () => <Component6 />,
 };
 
-export const Logos4: StoryObj = {
-  name: 'Logos4',
-  render: () => <Logos4 />,
+export const StoryLogos4: StoryObj = {
+  name: 'logos 4',
+  render: () => <Component7 />,
 };
 
-export const Logos5: StoryObj = {
-  name: 'Logos5',
-  render: () => <Logos5 />,
+export const StoryLogos5: StoryObj = {
+  name: 'logos 5',
+  render: () => <Component8 />,
 };
 
-export const Logos7: StoryObj = {
-  name: 'Logos7',
-  render: () => <Logos7 />,
+export const StoryLogos7: StoryObj = {
+  name: 'logos 7',
+  render: () => <Component9 />,
 };
 
-export const Logos9: StoryObj = {
-  name: 'Logos9',
-  render: () => <Logos9 />,
+export const StoryLogos9: StoryObj = {
+  name: 'logos 9',
+  render: () => <Component10 />,
 };
 

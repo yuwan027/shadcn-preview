@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Ratecard1 from '@/components/blocks/ratecard/ratecard1';
+import Component0 from '@/components/blocks/ratecard/ratecard1';
 
 const meta: Meta = {
   title: 'Blocks/Ratecard',
@@ -9,8 +9,8 @@ const meta: Meta = {
 
 export default meta;
 
-export const Ratecard1: StoryObj = {
-  name: 'Ratecard1',
-  render: () => <Ratecard1 />,
+export const StoryRatecard1: StoryObj = {
+  name: 'ratecard 1',
+  render: () => <Component0 />,
 };
 

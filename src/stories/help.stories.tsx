@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Help1 from '@/components/blocks/help/help1';
-import Help2 from '@/components/blocks/help/help2';
+import Component0 from '@/components/blocks/help/help1';
+import Component1 from '@/components/blocks/help/help2';
 
 const meta: Meta = {
   title: 'Blocks/Help',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const Help1: StoryObj = {
-  name: 'Help1',
-  render: () => <Help1 />,
+export const StoryHelp1: StoryObj = {
+  name: 'help 1',
+  render: () => <Component0 />,
 };
 
-export const Help2: StoryObj = {
-  name: 'Help2',
-  render: () => <Help2 />,
+export const StoryHelp2: StoryObj = {
+  name: 'help 2',
+  render: () => <Component1 />,
 };
 

@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Wishlist1 from '@/components/blocks/wishlist/wishlist1';
-import Wishlist2 from '@/components/blocks/wishlist/wishlist2';
+import Component0 from '@/components/blocks/wishlist/wishlist1';
+import Component1 from '@/components/blocks/wishlist/wishlist2';
 
 const meta: Meta = {
   title: 'Blocks/Wishlist',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const Wishlist1: StoryObj = {
-  name: 'Wishlist1',
-  render: () => <Wishlist1 />,
+export const StoryWishlist1: StoryObj = {
+  name: 'wishlist 1',
+  render: () => <Component0 />,
 };
 
-export const Wishlist2: StoryObj = {
-  name: 'Wishlist2',
-  render: () => <Wishlist2 />,
+export const StoryWishlist2: StoryObj = {
+  name: 'wishlist 2',
+  render: () => <Component1 />,
 };
 

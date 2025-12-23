@@ -1,16 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import ShoppingCart1 from '@/components/blocks/shopping-cart/shopping-cart1';
-import ShoppingCart14 from '@/components/blocks/shopping-cart/shopping-cart14';
-import ShoppingCart15 from '@/components/blocks/shopping-cart/shopping-cart15';
-import ShoppingCart16 from '@/components/blocks/shopping-cart/shopping-cart16';
-import ShoppingCart17 from '@/components/blocks/shopping-cart/shopping-cart17';
-import ShoppingCart18 from '@/components/blocks/shopping-cart/shopping-cart18';
-import ShoppingCart19 from '@/components/blocks/shopping-cart/shopping-cart19';
-import ShoppingCart2 from '@/components/blocks/shopping-cart/shopping-cart2';
-import ShoppingCart20 from '@/components/blocks/shopping-cart/shopping-cart20';
-import ShoppingCart3 from '@/components/blocks/shopping-cart/shopping-cart3';
-import ShoppingCart7 from '@/components/blocks/shopping-cart/shopping-cart7';
+import Component0 from '@/components/blocks/shopping-cart/shopping-cart1';
+import Component1 from '@/components/blocks/shopping-cart/shopping-cart14';
+import Component2 from '@/components/blocks/shopping-cart/shopping-cart15';
+import Component3 from '@/components/blocks/shopping-cart/shopping-cart16';
+import Component4 from '@/components/blocks/shopping-cart/shopping-cart17';
+import Component5 from '@/components/blocks/shopping-cart/shopping-cart18';
+import Component6 from '@/components/blocks/shopping-cart/shopping-cart19';
+import Component7 from '@/components/blocks/shopping-cart/shopping-cart2';
+import Component8 from '@/components/blocks/shopping-cart/shopping-cart20';
+import Component9 from '@/components/blocks/shopping-cart/shopping-cart3';
+import Component10 from '@/components/blocks/shopping-cart/shopping-cart7';
 
 const meta: Meta = {
   title: 'Blocks/Shopping Cart',
@@ -19,58 +19,58 @@ const meta: Meta = {
 
 export default meta;
 
-export const ShoppingCart1: StoryObj = {
-  name: 'Shopping Cart1',
-  render: () => <ShoppingCart1 />,
+export const StoryShoppingCart1: StoryObj = {
+  name: 'shopping cart 1',
+  render: () => <Component0 />,
 };
 
-export const ShoppingCart14: StoryObj = {
-  name: 'Shopping Cart14',
-  render: () => <ShoppingCart14 />,
+export const StoryShoppingCart14: StoryObj = {
+  name: 'shopping cart 14',
+  render: () => <Component1 />,
 };
 
-export const ShoppingCart15: StoryObj = {
-  name: 'Shopping Cart15',
-  render: () => <ShoppingCart15 />,
+export const StoryShoppingCart15: StoryObj = {
+  name: 'shopping cart 15',
+  render: () => <Component2 />,
 };
 
-export const ShoppingCart16: StoryObj = {
-  name: 'Shopping Cart16',
-  render: () => <ShoppingCart16 />,
+export const StoryShoppingCart16: StoryObj = {
+  name: 'shopping cart 16',
+  render: () => <Component3 />,
 };
 
-export const ShoppingCart17: StoryObj = {
-  name: 'Shopping Cart17',
-  render: () => <ShoppingCart17 />,
+export const StoryShoppingCart17: StoryObj = {
+  name: 'shopping cart 17',
+  render: () => <Component4 />,
 };
 
-export const ShoppingCart18: StoryObj = {
-  name: 'Shopping Cart18',
-  render: () => <ShoppingCart18 />,
+export const StoryShoppingCart18: StoryObj = {
+  name: 'shopping cart 18',
+  render: () => <Component5 />,
 };
 
-export const ShoppingCart19: StoryObj = {
-  name: 'Shopping Cart19',
-  render: () => <ShoppingCart19 />,
+export const StoryShoppingCart19: StoryObj = {
+  name: 'shopping cart 19',
+  render: () => <Component6 />,
 };
 
-export const ShoppingCart2: StoryObj = {
-  name: 'Shopping Cart2',
-  render: () => <ShoppingCart2 />,
+export const StoryShoppingCart2: StoryObj = {
+  name: 'shopping cart 2',
+  render: () => <Component7 />,
 };
 
-export const ShoppingCart20: StoryObj = {
-  name: 'Shopping Cart20',
-  render: () => <ShoppingCart20 />,
+export const StoryShoppingCart20: StoryObj = {
+  name: 'shopping cart 20',
+  render: () => <Component8 />,
 };
 
-export const ShoppingCart3: StoryObj = {
-  name: 'Shopping Cart3',
-  render: () => <ShoppingCart3 />,
+export const StoryShoppingCart3: StoryObj = {
+  name: 'shopping cart 3',
+  render: () => <Component9 />,
 };
 
-export const ShoppingCart7: StoryObj = {
-  name: 'Shopping Cart7',
-  render: () => <ShoppingCart7 />,
+export const StoryShoppingCart7: StoryObj = {
+  name: 'shopping cart 7',
+  render: () => <Component10 />,
 };
 

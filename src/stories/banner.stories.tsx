@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Banner3 from '@/components/blocks/banner/banner3';
-import Banner4 from '@/components/blocks/banner/banner4';
-import Banner5 from '@/components/blocks/banner/banner5';
-import Banner6 from '@/components/blocks/banner/banner6';
-import Banner7 from '@/components/blocks/banner/banner7';
+import Component0 from '@/components/blocks/banner/banner3';
+import Component1 from '@/components/blocks/banner/banner4';
+import Component2 from '@/components/blocks/banner/banner5';
+import Component3 from '@/components/blocks/banner/banner6';
+import Component4 from '@/components/blocks/banner/banner7';
 
 const meta: Meta = {
   title: 'Blocks/Banner',
@@ -13,28 +13,28 @@ const meta: Meta = {
 
 export default meta;
 
-export const Banner3: StoryObj = {
-  name: 'Banner3',
-  render: () => <Banner3 />,
+export const StoryBanner3: StoryObj = {
+  name: 'banner 3',
+  render: () => <Component0 />,
 };
 
-export const Banner4: StoryObj = {
-  name: 'Banner4',
-  render: () => <Banner4 />,
+export const StoryBanner4: StoryObj = {
+  name: 'banner 4',
+  render: () => <Component1 />,
 };
 
-export const Banner5: StoryObj = {
-  name: 'Banner5',
-  render: () => <Banner5 />,
+export const StoryBanner5: StoryObj = {
+  name: 'banner 5',
+  render: () => <Component2 />,
 };
 
-export const Banner6: StoryObj = {
-  name: 'Banner6',
-  render: () => <Banner6 />,
+export const StoryBanner6: StoryObj = {
+  name: 'banner 6',
+  render: () => <Component3 />,
 };
 
-export const Banner7: StoryObj = {
-  name: 'Banner7',
-  render: () => <Banner7 />,
+export const StoryBanner7: StoryObj = {
+  name: 'banner 7',
+  render: () => <Component4 />,
 };
 

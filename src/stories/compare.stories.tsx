@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Compare1 from '@/components/blocks/compare/compare1';
-import Compare10 from '@/components/blocks/compare/compare10';
-import Compare2 from '@/components/blocks/compare/compare2';
-import Compare3 from '@/components/blocks/compare/compare3';
-import Compare4 from '@/components/blocks/compare/compare4';
-import Compare5 from '@/components/blocks/compare/compare5';
-import Compare6 from '@/components/blocks/compare/compare6';
-import Compare9 from '@/components/blocks/compare/compare9';
+import Component0 from '@/components/blocks/compare/compare1';
+import Component1 from '@/components/blocks/compare/compare10';
+import Component2 from '@/components/blocks/compare/compare2';
+import Component3 from '@/components/blocks/compare/compare3';
+import Component4 from '@/components/blocks/compare/compare4';
+import Component5 from '@/components/blocks/compare/compare5';
+import Component6 from '@/components/blocks/compare/compare6';
+import Component7 from '@/components/blocks/compare/compare9';
 
 const meta: Meta = {
   title: 'Blocks/Compare',
@@ -16,43 +16,43 @@ const meta: Meta = {
 
 export default meta;
 
-export const Compare1: StoryObj = {
-  name: 'Compare1',
-  render: () => <Compare1 />,
+export const StoryCompare1: StoryObj = {
+  name: 'compare 1',
+  render: () => <Component0 />,
 };
 
-export const Compare10: StoryObj = {
-  name: 'Compare10',
-  render: () => <Compare10 />,
+export const StoryCompare10: StoryObj = {
+  name: 'compare 10',
+  render: () => <Component1 />,
 };
 
-export const Compare2: StoryObj = {
-  name: 'Compare2',
-  render: () => <Compare2 />,
+export const StoryCompare2: StoryObj = {
+  name: 'compare 2',
+  render: () => <Component2 />,
 };
 
-export const Compare3: StoryObj = {
-  name: 'Compare3',
-  render: () => <Compare3 />,
+export const StoryCompare3: StoryObj = {
+  name: 'compare 3',
+  render: () => <Component3 />,
 };
 
-export const Compare4: StoryObj = {
-  name: 'Compare4',
-  render: () => <Compare4 />,
+export const StoryCompare4: StoryObj = {
+  name: 'compare 4',
+  render: () => <Component4 />,
 };
 
-export const Compare5: StoryObj = {
-  name: 'Compare5',
-  render: () => <Compare5 />,
+export const StoryCompare5: StoryObj = {
+  name: 'compare 5',
+  render: () => <Component5 />,
 };
 
-export const Compare6: StoryObj = {
-  name: 'Compare6',
-  render: () => <Compare6 />,
+export const StoryCompare6: StoryObj = {
+  name: 'compare 6',
+  render: () => <Component6 />,
 };
 
-export const Compare9: StoryObj = {
-  name: 'Compare9',
-  render: () => <Compare9 />,
+export const StoryCompare9: StoryObj = {
+  name: 'compare 9',
+  render: () => <Component7 />,
 };
 

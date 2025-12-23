@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Content2 from '@/components/blocks/content/content2';
-import Content3 from '@/components/blocks/content/content3';
-import Content4 from '@/components/blocks/content/content4';
+import Component0 from '@/components/blocks/content/content2';
+import Component1 from '@/components/blocks/content/content3';
+import Component2 from '@/components/blocks/content/content4';
 
 const meta: Meta = {
   title: 'Blocks/Content',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const Content2: StoryObj = {
-  name: 'Content2',
-  render: () => <Content2 />,
+export const StoryContent2: StoryObj = {
+  name: 'content 2',
+  render: () => <Component0 />,
 };
 
-export const Content3: StoryObj = {
-  name: 'Content3',
-  render: () => <Content3 />,
+export const StoryContent3: StoryObj = {
+  name: 'content 3',
+  render: () => <Component1 />,
 };
 
-export const Content4: StoryObj = {
-  name: 'Content4',
-  render: () => <Content4 />,
+export const StoryContent4: StoryObj = {
+  name: 'content 4',
+  render: () => <Component2 />,
 };
 

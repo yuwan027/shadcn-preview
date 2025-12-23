@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Changelog2 from '@/components/blocks/changelog/changelog2';
-import Changelog3 from '@/components/blocks/changelog/changelog3';
-import Changelog4 from '@/components/blocks/changelog/changelog4';
-import Changelog5 from '@/components/blocks/changelog/changelog5';
-import Changelog6 from '@/components/blocks/changelog/changelog6';
-import Changelog8 from '@/components/blocks/changelog/changelog8';
+import Component0 from '@/components/blocks/changelog/changelog2';
+import Component1 from '@/components/blocks/changelog/changelog3';
+import Component2 from '@/components/blocks/changelog/changelog4';
+import Component3 from '@/components/blocks/changelog/changelog5';
+import Component4 from '@/components/blocks/changelog/changelog6';
+import Component5 from '@/components/blocks/changelog/changelog8';
 
 const meta: Meta = {
   title: 'Blocks/Changelog',
@@ -14,33 +14,33 @@ const meta: Meta = {
 
 export default meta;
 
-export const Changelog2: StoryObj = {
-  name: 'Changelog2',
-  render: () => <Changelog2 />,
+export const StoryChangelog2: StoryObj = {
+  name: 'changelog 2',
+  render: () => <Component0 />,
 };
 
-export const Changelog3: StoryObj = {
-  name: 'Changelog3',
-  render: () => <Changelog3 />,
+export const StoryChangelog3: StoryObj = {
+  name: 'changelog 3',
+  render: () => <Component1 />,
 };
 
-export const Changelog4: StoryObj = {
-  name: 'Changelog4',
-  render: () => <Changelog4 />,
+export const StoryChangelog4: StoryObj = {
+  name: 'changelog 4',
+  render: () => <Component2 />,
 };
 
-export const Changelog5: StoryObj = {
-  name: 'Changelog5',
-  render: () => <Changelog5 />,
+export const StoryChangelog5: StoryObj = {
+  name: 'changelog 5',
+  render: () => <Component3 />,
 };
 
-export const Changelog6: StoryObj = {
-  name: 'Changelog6',
-  render: () => <Changelog6 />,
+export const StoryChangelog6: StoryObj = {
+  name: 'changelog 6',
+  render: () => <Component4 />,
 };
 
-export const Changelog8: StoryObj = {
-  name: 'Changelog8',
-  render: () => <Changelog8 />,
+export const StoryChangelog8: StoryObj = {
+  name: 'changelog 8',
+  render: () => <Component5 />,
 };
 

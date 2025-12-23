@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Login3 from '@/components/blocks/login/login3';
-import Login4 from '@/components/blocks/login/login4';
-import Login5 from '@/components/blocks/login/login5';
-import Login6 from '@/components/blocks/login/login6';
-import Login7 from '@/components/blocks/login/login7';
-import Login9 from '@/components/blocks/login/login9';
+import Component0 from '@/components/blocks/login/login3';
+import Component1 from '@/components/blocks/login/login4';
+import Component2 from '@/components/blocks/login/login5';
+import Component3 from '@/components/blocks/login/login6';
+import Component4 from '@/components/blocks/login/login7';
+import Component5 from '@/components/blocks/login/login9';
 
 const meta: Meta = {
   title: 'Blocks/Login',
@@ -14,33 +14,33 @@ const meta: Meta = {
 
 export default meta;
 
-export const Login3: StoryObj = {
-  name: 'Login3',
-  render: () => <Login3 />,
+export const StoryLogin3: StoryObj = {
+  name: 'login 3',
+  render: () => <Component0 />,
 };
 
-export const Login4: StoryObj = {
-  name: 'Login4',
-  render: () => <Login4 />,
+export const StoryLogin4: StoryObj = {
+  name: 'login 4',
+  render: () => <Component1 />,
 };
 
-export const Login5: StoryObj = {
-  name: 'Login5',
-  render: () => <Login5 />,
+export const StoryLogin5: StoryObj = {
+  name: 'login 5',
+  render: () => <Component2 />,
 };
 
-export const Login6: StoryObj = {
-  name: 'Login6',
-  render: () => <Login6 />,
+export const StoryLogin6: StoryObj = {
+  name: 'login 6',
+  render: () => <Component3 />,
 };
 
-export const Login7: StoryObj = {
-  name: 'Login7',
-  render: () => <Login7 />,
+export const StoryLogin7: StoryObj = {
+  name: 'login 7',
+  render: () => <Component4 />,
 };
 
-export const Login9: StoryObj = {
-  name: 'Login9',
-  render: () => <Login9 />,
+export const StoryLogin9: StoryObj = {
+  name: 'login 9',
+  render: () => <Component5 />,
 };
 

@@ -1,36 +1,36 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Project10 from '@/components/blocks/project/project10';
-import Project12 from '@/components/blocks/project/project12';
-import Project13 from '@/components/blocks/project/project13';
-import Project13a from '@/components/blocks/project/project13a';
-import Project14 from '@/components/blocks/project/project14';
-import Project2a from '@/components/blocks/project/project2a';
-import Project2b from '@/components/blocks/project/project2b';
-import Project2c from '@/components/blocks/project/project2c';
-import Project2d from '@/components/blocks/project/project2d';
-import Project4 from '@/components/blocks/project/project4';
-import Project4a from '@/components/blocks/project/project4a';
-import Project4b from '@/components/blocks/project/project4b';
-import Project4c from '@/components/blocks/project/project4c';
-import Project5 from '@/components/blocks/project/project5';
-import Project5a from '@/components/blocks/project/project5a';
-import Project5b from '@/components/blocks/project/project5b';
-import Project5c from '@/components/blocks/project/project5c';
-import Project5d from '@/components/blocks/project/project5d';
-import Project5e from '@/components/blocks/project/project5e';
-import Project5f from '@/components/blocks/project/project5f';
-import Project5g from '@/components/blocks/project/project5g';
-import Project6 from '@/components/blocks/project/project6';
-import Project6a from '@/components/blocks/project/project6a';
-import Project7 from '@/components/blocks/project/project7';
-import Project8 from '@/components/blocks/project/project8';
-import Project8a from '@/components/blocks/project/project8a';
-import Project8b from '@/components/blocks/project/project8b';
-import Project8c from '@/components/blocks/project/project8c';
-import Project8d from '@/components/blocks/project/project8d';
-import Project8e from '@/components/blocks/project/project8e';
-import Project9 from '@/components/blocks/project/project9';
+import Component0 from '@/components/blocks/project/project10';
+import Component1 from '@/components/blocks/project/project12';
+import Component2 from '@/components/blocks/project/project13';
+import Component3 from '@/components/blocks/project/project13a';
+import Component4 from '@/components/blocks/project/project14';
+import Component5 from '@/components/blocks/project/project2a';
+import Component6 from '@/components/blocks/project/project2b';
+import Component7 from '@/components/blocks/project/project2c';
+import Component8 from '@/components/blocks/project/project2d';
+import Component9 from '@/components/blocks/project/project4';
+import Component10 from '@/components/blocks/project/project4a';
+import Component11 from '@/components/blocks/project/project4b';
+import Component12 from '@/components/blocks/project/project4c';
+import Component13 from '@/components/blocks/project/project5';
+import Component14 from '@/components/blocks/project/project5a';
+import Component15 from '@/components/blocks/project/project5b';
+import Component16 from '@/components/blocks/project/project5c';
+import Component17 from '@/components/blocks/project/project5d';
+import Component18 from '@/components/blocks/project/project5e';
+import Component19 from '@/components/blocks/project/project5f';
+import Component20 from '@/components/blocks/project/project5g';
+import Component21 from '@/components/blocks/project/project6';
+import Component22 from '@/components/blocks/project/project6a';
+import Component23 from '@/components/blocks/project/project7';
+import Component24 from '@/components/blocks/project/project8';
+import Component25 from '@/components/blocks/project/project8a';
+import Component26 from '@/components/blocks/project/project8b';
+import Component27 from '@/components/blocks/project/project8c';
+import Component28 from '@/components/blocks/project/project8d';
+import Component29 from '@/components/blocks/project/project8e';
+import Component30 from '@/components/blocks/project/project9';
 
 const meta: Meta = {
   title: 'Blocks/Project',
@@ -39,158 +39,158 @@ const meta: Meta = {
 
 export default meta;
 
-export const Project10: StoryObj = {
-  name: 'Project10',
-  render: () => <Project10 />,
+export const StoryProject10: StoryObj = {
+  name: 'project 10',
+  render: () => <Component0 />,
 };
 
-export const Project12: StoryObj = {
-  name: 'Project12',
-  render: () => <Project12 />,
+export const StoryProject12: StoryObj = {
+  name: 'project 12',
+  render: () => <Component1 />,
 };
 
-export const Project13: StoryObj = {
-  name: 'Project13',
-  render: () => <Project13 />,
+export const StoryProject13: StoryObj = {
+  name: 'project 13',
+  render: () => <Component2 />,
 };
 
-export const Project13a: StoryObj = {
-  name: 'Project13a',
-  render: () => <Project13a />,
+export const StoryProject13a: StoryObj = {
+  name: 'project 13a',
+  render: () => <Component3 />,
 };
 
-export const Project14: StoryObj = {
-  name: 'Project14',
-  render: () => <Project14 />,
+export const StoryProject14: StoryObj = {
+  name: 'project 14',
+  render: () => <Component4 />,
 };
 
-export const Project2a: StoryObj = {
-  name: 'Project2a',
-  render: () => <Project2a />,
+export const StoryProject2a: StoryObj = {
+  name: 'project 2a',
+  render: () => <Component5 />,
 };
 
-export const Project2b: StoryObj = {
-  name: 'Project2b',
-  render: () => <Project2b />,
+export const StoryProject2b: StoryObj = {
+  name: 'project 2b',
+  render: () => <Component6 />,
 };
 
-export const Project2c: StoryObj = {
-  name: 'Project2c',
-  render: () => <Project2c />,
+export const StoryProject2c: StoryObj = {
+  name: 'project 2c',
+  render: () => <Component7 />,
 };
 
-export const Project2d: StoryObj = {
-  name: 'Project2d',
-  render: () => <Project2d />,
+export const StoryProject2d: StoryObj = {
+  name: 'project 2d',
+  render: () => <Component8 />,
 };
 
-export const Project4: StoryObj = {
-  name: 'Project4',
-  render: () => <Project4 />,
+export const StoryProject4: StoryObj = {
+  name: 'project 4',
+  render: () => <Component9 />,
 };
 
-export const Project4a: StoryObj = {
-  name: 'Project4a',
-  render: () => <Project4a />,
+export const StoryProject4a: StoryObj = {
+  name: 'project 4a',
+  render: () => <Component10 />,
 };
 
-export const Project4b: StoryObj = {
-  name: 'Project4b',
-  render: () => <Project4b />,
+export const StoryProject4b: StoryObj = {
+  name: 'project 4b',
+  render: () => <Component11 />,
 };
 
-export const Project4c: StoryObj = {
-  name: 'Project4c',
-  render: () => <Project4c />,
+export const StoryProject4c: StoryObj = {
+  name: 'project 4c',
+  render: () => <Component12 />,
 };
 
-export const Project5: StoryObj = {
-  name: 'Project5',
-  render: () => <Project5 />,
+export const StoryProject5: StoryObj = {
+  name: 'project 5',
+  render: () => <Component13 />,
 };
 
-export const Project5a: StoryObj = {
-  name: 'Project5a',
-  render: () => <Project5a />,
+export const StoryProject5a: StoryObj = {
+  name: 'project 5a',
+  render: () => <Component14 />,
 };
 
-export const Project5b: StoryObj = {
-  name: 'Project5b',
-  render: () => <Project5b />,
+export const StoryProject5b: StoryObj = {
+  name: 'project 5b',
+  render: () => <Component15 />,
 };
 
-export const Project5c: StoryObj = {
-  name: 'Project5c',
-  render: () => <Project5c />,
+export const StoryProject5c: StoryObj = {
+  name: 'project 5c',
+  render: () => <Component16 />,
 };
 
-export const Project5d: StoryObj = {
-  name: 'Project5d',
-  render: () => <Project5d />,
+export const StoryProject5d: StoryObj = {
+  name: 'project 5d',
+  render: () => <Component17 />,
 };
 
-export const Project5e: StoryObj = {
-  name: 'Project5e',
-  render: () => <Project5e />,
+export const StoryProject5e: StoryObj = {
+  name: 'project 5e',
+  render: () => <Component18 />,
 };
 
-export const Project5f: StoryObj = {
-  name: 'Project5f',
-  render: () => <Project5f />,
+export const StoryProject5f: StoryObj = {
+  name: 'project 5f',
+  render: () => <Component19 />,
 };
 
-export const Project5g: StoryObj = {
-  name: 'Project5g',
-  render: () => <Project5g />,
+export const StoryProject5g: StoryObj = {
+  name: 'project 5g',
+  render: () => <Component20 />,
 };
 
-export const Project6: StoryObj = {
-  name: 'Project6',
-  render: () => <Project6 />,
+export const StoryProject6: StoryObj = {
+  name: 'project 6',
+  render: () => <Component21 />,
 };
 
-export const Project6a: StoryObj = {
-  name: 'Project6a',
-  render: () => <Project6a />,
+export const StoryProject6a: StoryObj = {
+  name: 'project 6a',
+  render: () => <Component22 />,
 };
 
-export const Project7: StoryObj = {
-  name: 'Project7',
-  render: () => <Project7 />,
+export const StoryProject7: StoryObj = {
+  name: 'project 7',
+  render: () => <Component23 />,
 };
 
-export const Project8: StoryObj = {
-  name: 'Project8',
-  render: () => <Project8 />,
+export const StoryProject8: StoryObj = {
+  name: 'project 8',
+  render: () => <Component24 />,
 };
 
-export const Project8a: StoryObj = {
-  name: 'Project8a',
-  render: () => <Project8a />,
+export const StoryProject8a: StoryObj = {
+  name: 'project 8a',
+  render: () => <Component25 />,
 };
 
-export const Project8b: StoryObj = {
-  name: 'Project8b',
-  render: () => <Project8b />,
+export const StoryProject8b: StoryObj = {
+  name: 'project 8b',
+  render: () => <Component26 />,
 };
 
-export const Project8c: StoryObj = {
-  name: 'Project8c',
-  render: () => <Project8c />,
+export const StoryProject8c: StoryObj = {
+  name: 'project 8c',
+  render: () => <Component27 />,
 };
 
-export const Project8d: StoryObj = {
-  name: 'Project8d',
-  render: () => <Project8d />,
+export const StoryProject8d: StoryObj = {
+  name: 'project 8d',
+  render: () => <Component28 />,
 };
 
-export const Project8e: StoryObj = {
-  name: 'Project8e',
-  render: () => <Project8e />,
+export const StoryProject8e: StoryObj = {
+  name: 'project 8e',
+  render: () => <Component29 />,
 };
 
-export const Project9: StoryObj = {
-  name: 'Project9',
-  render: () => <Project9 />,
+export const StoryProject9: StoryObj = {
+  name: 'project 9',
+  render: () => <Component30 />,
 };
 

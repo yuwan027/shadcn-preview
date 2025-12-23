@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import PaymentMethods1 from '@/components/blocks/payment-methods/payment-methods1';
-import PaymentMethods2 from '@/components/blocks/payment-methods/payment-methods2';
-import PaymentMethods3 from '@/components/blocks/payment-methods/payment-methods3';
-import PaymentMethods4 from '@/components/blocks/payment-methods/payment-methods4';
+import Component0 from '@/components/blocks/payment-methods/payment-methods1';
+import Component1 from '@/components/blocks/payment-methods/payment-methods2';
+import Component2 from '@/components/blocks/payment-methods/payment-methods3';
+import Component3 from '@/components/blocks/payment-methods/payment-methods4';
 
 const meta: Meta = {
   title: 'Blocks/Payment Methods',
@@ -12,23 +12,23 @@ const meta: Meta = {
 
 export default meta;
 
-export const PaymentMethods1: StoryObj = {
-  name: 'Payment Methods1',
-  render: () => <PaymentMethods1 />,
+export const StoryPaymentMethods1: StoryObj = {
+  name: 'payment methods 1',
+  render: () => <Component0 />,
 };
 
-export const PaymentMethods2: StoryObj = {
-  name: 'Payment Methods2',
-  render: () => <PaymentMethods2 />,
+export const StoryPaymentMethods2: StoryObj = {
+  name: 'payment methods 2',
+  render: () => <Component1 />,
 };
 
-export const PaymentMethods3: StoryObj = {
-  name: 'Payment Methods3',
-  render: () => <PaymentMethods3 />,
+export const StoryPaymentMethods3: StoryObj = {
+  name: 'payment methods 3',
+  render: () => <Component2 />,
 };
 
-export const PaymentMethods4: StoryObj = {
-  name: 'Payment Methods4',
-  render: () => <PaymentMethods4 />,
+export const StoryPaymentMethods4: StoryObj = {
+  name: 'payment methods 4',
+  render: () => <Component3 />,
 };
 

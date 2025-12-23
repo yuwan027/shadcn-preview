@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Download10 from '@/components/blocks/download/download10';
-import Download11 from '@/components/blocks/download/download11';
-import Download13 from '@/components/blocks/download/download13';
-import Download3 from '@/components/blocks/download/download3';
-import Download4 from '@/components/blocks/download/download4';
-import Download5 from '@/components/blocks/download/download5';
-import Download6 from '@/components/blocks/download/download6';
-import Download7 from '@/components/blocks/download/download7';
-import Download8 from '@/components/blocks/download/download8';
-import Download9 from '@/components/blocks/download/download9';
+import Component0 from '@/components/blocks/download/download10';
+import Component1 from '@/components/blocks/download/download11';
+import Component2 from '@/components/blocks/download/download13';
+import Component3 from '@/components/blocks/download/download3';
+import Component4 from '@/components/blocks/download/download4';
+import Component5 from '@/components/blocks/download/download5';
+import Component6 from '@/components/blocks/download/download6';
+import Component7 from '@/components/blocks/download/download7';
+import Component8 from '@/components/blocks/download/download8';
+import Component9 from '@/components/blocks/download/download9';
 
 const meta: Meta = {
   title: 'Blocks/Download',
@@ -18,53 +18,53 @@ const meta: Meta = {
 
 export default meta;
 
-export const Download10: StoryObj = {
-  name: 'Download10',
-  render: () => <Download10 />,
+export const StoryDownload10: StoryObj = {
+  name: 'download 10',
+  render: () => <Component0 />,
 };
 
-export const Download11: StoryObj = {
-  name: 'Download11',
-  render: () => <Download11 />,
+export const StoryDownload11: StoryObj = {
+  name: 'download 11',
+  render: () => <Component1 />,
 };
 
-export const Download13: StoryObj = {
-  name: 'Download13',
-  render: () => <Download13 />,
+export const StoryDownload13: StoryObj = {
+  name: 'download 13',
+  render: () => <Component2 />,
 };
 
-export const Download3: StoryObj = {
-  name: 'Download3',
-  render: () => <Download3 />,
+export const StoryDownload3: StoryObj = {
+  name: 'download 3',
+  render: () => <Component3 />,
 };
 
-export const Download4: StoryObj = {
-  name: 'Download4',
-  render: () => <Download4 />,
+export const StoryDownload4: StoryObj = {
+  name: 'download 4',
+  render: () => <Component4 />,
 };
 
-export const Download5: StoryObj = {
-  name: 'Download5',
-  render: () => <Download5 />,
+export const StoryDownload5: StoryObj = {
+  name: 'download 5',
+  render: () => <Component5 />,
 };
 
-export const Download6: StoryObj = {
-  name: 'Download6',
-  render: () => <Download6 />,
+export const StoryDownload6: StoryObj = {
+  name: 'download 6',
+  render: () => <Component6 />,
 };
 
-export const Download7: StoryObj = {
-  name: 'Download7',
-  render: () => <Download7 />,
+export const StoryDownload7: StoryObj = {
+  name: 'download 7',
+  render: () => <Component7 />,
 };
 
-export const Download8: StoryObj = {
-  name: 'Download8',
-  render: () => <Download8 />,
+export const StoryDownload8: StoryObj = {
+  name: 'download 8',
+  render: () => <Component8 />,
 };
 
-export const Download9: StoryObj = {
-  name: 'Download9',
-  render: () => <Download9 />,
+export const StoryDownload9: StoryObj = {
+  name: 'download 9',
+  render: () => <Component9 />,
 };
 

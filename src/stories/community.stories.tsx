@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Community3 from '@/components/blocks/community/community3';
-import Community4 from '@/components/blocks/community/community4';
-import Community5 from '@/components/blocks/community/community5';
-import Community6 from '@/components/blocks/community/community6';
-import Community7 from '@/components/blocks/community/community7';
+import Component0 from '@/components/blocks/community/community3';
+import Component1 from '@/components/blocks/community/community4';
+import Component2 from '@/components/blocks/community/community5';
+import Component3 from '@/components/blocks/community/community6';
+import Component4 from '@/components/blocks/community/community7';
 
 const meta: Meta = {
   title: 'Blocks/Community',
@@ -13,28 +13,28 @@ const meta: Meta = {
 
 export default meta;
 
-export const Community3: StoryObj = {
-  name: 'Community3',
-  render: () => <Community3 />,
+export const StoryCommunity3: StoryObj = {
+  name: 'community 3',
+  render: () => <Component0 />,
 };
 
-export const Community4: StoryObj = {
-  name: 'Community4',
-  render: () => <Community4 />,
+export const StoryCommunity4: StoryObj = {
+  name: 'community 4',
+  render: () => <Component1 />,
 };
 
-export const Community5: StoryObj = {
-  name: 'Community5',
-  render: () => <Community5 />,
+export const StoryCommunity5: StoryObj = {
+  name: 'community 5',
+  render: () => <Component2 />,
 };
 
-export const Community6: StoryObj = {
-  name: 'Community6',
-  render: () => <Community6 />,
+export const StoryCommunity6: StoryObj = {
+  name: 'community 6',
+  render: () => <Component3 />,
 };
 
-export const Community7: StoryObj = {
-  name: 'Community7',
-  render: () => <Community7 />,
+export const StoryCommunity7: StoryObj = {
+  name: 'community 7',
+  render: () => <Component4 />,
 };
 

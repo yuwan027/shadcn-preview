@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Skills1 from '@/components/blocks/skills/skills1';
-import Skills2 from '@/components/blocks/skills/skills2';
+import Component0 from '@/components/blocks/skills/skills1';
+import Component1 from '@/components/blocks/skills/skills2';
 
 const meta: Meta = {
   title: 'Blocks/Skills',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const Skills1: StoryObj = {
-  name: 'Skills1',
-  render: () => <Skills1 />,
+export const StorySkills1: StoryObj = {
+  name: 'skills 1',
+  render: () => <Component0 />,
 };
 
-export const Skills2: StoryObj = {
-  name: 'Skills2',
-  render: () => <Skills2 />,
+export const StorySkills2: StoryObj = {
+  name: 'skills 2',
+  render: () => <Component1 />,
 };
 

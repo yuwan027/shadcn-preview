@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Resource3 from '@/components/blocks/resource/resource3';
+import Component0 from '@/components/blocks/resource/resource3';
 
 const meta: Meta = {
   title: 'Blocks/Resource',
@@ -9,8 +9,8 @@ const meta: Meta = {
 
 export default meta;
 
-export const Resource3: StoryObj = {
-  name: 'Resource3',
-  render: () => <Resource3 />,
+export const StoryResource3: StoryObj = {
+  name: 'resource 3',
+  render: () => <Component0 />,
 };
 

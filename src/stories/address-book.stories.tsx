@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import AddressBook1 from '@/components/blocks/address-book/address-book1';
-import AddressBook2 from '@/components/blocks/address-book/address-book2';
+import Component0 from '@/components/blocks/address-book/address-book1';
+import Component1 from '@/components/blocks/address-book/address-book2';
 
 const meta: Meta = {
   title: 'Blocks/Address Book',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const AddressBook1: StoryObj = {
-  name: 'Address Book1',
-  render: () => <AddressBook1 />,
+export const StoryAddressBook1: StoryObj = {
+  name: 'address book 1',
+  render: () => <Component0 />,
 };
 
-export const AddressBook2: StoryObj = {
-  name: 'Address Book2',
-  render: () => <AddressBook2 />,
+export const StoryAddressBook2: StoryObj = {
+  name: 'address book 2',
+  render: () => <Component1 />,
 };
 

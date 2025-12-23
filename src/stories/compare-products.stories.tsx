@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import CompareProducts1 from '@/components/blocks/compare-products/compare-products1';
-import CompareProducts2 from '@/components/blocks/compare-products/compare-products2';
-import CompareProducts3 from '@/components/blocks/compare-products/compare-products3';
+import Component0 from '@/components/blocks/compare-products/compare-products1';
+import Component1 from '@/components/blocks/compare-products/compare-products2';
+import Component2 from '@/components/blocks/compare-products/compare-products3';
 
 const meta: Meta = {
   title: 'Blocks/Compare Products',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const CompareProducts1: StoryObj = {
-  name: 'Compare Products1',
-  render: () => <CompareProducts1 />,
+export const StoryCompareProducts1: StoryObj = {
+  name: 'compare products 1',
+  render: () => <Component0 />,
 };
 
-export const CompareProducts2: StoryObj = {
-  name: 'Compare Products2',
-  render: () => <CompareProducts2 />,
+export const StoryCompareProducts2: StoryObj = {
+  name: 'compare products 2',
+  render: () => <Component1 />,
 };
 
-export const CompareProducts3: StoryObj = {
-  name: 'Compare Products3',
-  render: () => <CompareProducts3 />,
+export const StoryCompareProducts3: StoryObj = {
+  name: 'compare products 3',
+  render: () => <Component2 />,
 };
 

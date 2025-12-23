@@ -1,18 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Faq10 from '@/components/blocks/faq/faq10';
-import Faq11 from '@/components/blocks/faq/faq11';
-import Faq12 from '@/components/blocks/faq/faq12';
-import Faq14 from '@/components/blocks/faq/faq14';
-import Faq15 from '@/components/blocks/faq/faq15';
-import Faq16 from '@/components/blocks/faq/faq16';
-import Faq17 from '@/components/blocks/faq/faq17';
-import Faq2 from '@/components/blocks/faq/faq2';
-import Faq4 from '@/components/blocks/faq/faq4';
-import Faq6 from '@/components/blocks/faq/faq6';
-import Faq7 from '@/components/blocks/faq/faq7';
-import Faq8 from '@/components/blocks/faq/faq8';
-import Faq9 from '@/components/blocks/faq/faq9';
+import Component0 from '@/components/blocks/faq/faq10';
+import Component1 from '@/components/blocks/faq/faq11';
+import Component2 from '@/components/blocks/faq/faq12';
+import Component3 from '@/components/blocks/faq/faq14';
+import Component4 from '@/components/blocks/faq/faq15';
+import Component5 from '@/components/blocks/faq/faq16';
+import Component6 from '@/components/blocks/faq/faq17';
+import Component7 from '@/components/blocks/faq/faq2';
+import Component8 from '@/components/blocks/faq/faq4';
+import Component9 from '@/components/blocks/faq/faq6';
+import Component10 from '@/components/blocks/faq/faq7';
+import Component11 from '@/components/blocks/faq/faq8';
+import Component12 from '@/components/blocks/faq/faq9';
 
 const meta: Meta = {
   title: 'Blocks/Faq',
@@ -21,68 +21,68 @@ const meta: Meta = {
 
 export default meta;
 
-export const Faq10: StoryObj = {
-  name: 'Faq10',
-  render: () => <Faq10 />,
+export const StoryFaq10: StoryObj = {
+  name: 'faq 10',
+  render: () => <Component0 />,
 };
 
-export const Faq11: StoryObj = {
-  name: 'Faq11',
-  render: () => <Faq11 />,
+export const StoryFaq11: StoryObj = {
+  name: 'faq 11',
+  render: () => <Component1 />,
 };
 
-export const Faq12: StoryObj = {
-  name: 'Faq12',
-  render: () => <Faq12 />,
+export const StoryFaq12: StoryObj = {
+  name: 'faq 12',
+  render: () => <Component2 />,
 };
 
-export const Faq14: StoryObj = {
-  name: 'Faq14',
-  render: () => <Faq14 />,
+export const StoryFaq14: StoryObj = {
+  name: 'faq 14',
+  render: () => <Component3 />,
 };
 
-export const Faq15: StoryObj = {
-  name: 'Faq15',
-  render: () => <Faq15 />,
+export const StoryFaq15: StoryObj = {
+  name: 'faq 15',
+  render: () => <Component4 />,
 };
 
-export const Faq16: StoryObj = {
-  name: 'Faq16',
-  render: () => <Faq16 />,
+export const StoryFaq16: StoryObj = {
+  name: 'faq 16',
+  render: () => <Component5 />,
 };
 
-export const Faq17: StoryObj = {
-  name: 'Faq17',
-  render: () => <Faq17 />,
+export const StoryFaq17: StoryObj = {
+  name: 'faq 17',
+  render: () => <Component6 />,
 };
 
-export const Faq2: StoryObj = {
-  name: 'Faq2',
-  render: () => <Faq2 />,
+export const StoryFaq2: StoryObj = {
+  name: 'faq 2',
+  render: () => <Component7 />,
 };
 
-export const Faq4: StoryObj = {
-  name: 'Faq4',
-  render: () => <Faq4 />,
+export const StoryFaq4: StoryObj = {
+  name: 'faq 4',
+  render: () => <Component8 />,
 };
 
-export const Faq6: StoryObj = {
-  name: 'Faq6',
-  render: () => <Faq6 />,
+export const StoryFaq6: StoryObj = {
+  name: 'faq 6',
+  render: () => <Component9 />,
 };
 
-export const Faq7: StoryObj = {
-  name: 'Faq7',
-  render: () => <Faq7 />,
+export const StoryFaq7: StoryObj = {
+  name: 'faq 7',
+  render: () => <Component10 />,
 };
 
-export const Faq8: StoryObj = {
-  name: 'Faq8',
-  render: () => <Faq8 />,
+export const StoryFaq8: StoryObj = {
+  name: 'faq 8',
+  render: () => <Component11 />,
 };
 
-export const Faq9: StoryObj = {
-  name: 'Faq9',
-  render: () => <Faq9 />,
+export const StoryFaq9: StoryObj = {
+  name: 'faq 9',
+  render: () => <Component12 />,
 };
 

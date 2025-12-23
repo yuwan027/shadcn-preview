@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Casestudies1 from '@/components/blocks/casestudies/casestudies1';
-import Casestudies4 from '@/components/blocks/casestudies/casestudies4';
-import Casestudies5 from '@/components/blocks/casestudies/casestudies5';
+import Component0 from '@/components/blocks/casestudies/casestudies1';
+import Component1 from '@/components/blocks/casestudies/casestudies4';
+import Component2 from '@/components/blocks/casestudies/casestudies5';
 
 const meta: Meta = {
   title: 'Blocks/Casestudies',
@@ -11,18 +11,18 @@ const meta: Meta = {
 
 export default meta;
 
-export const Casestudies1: StoryObj = {
-  name: 'Casestudies1',
-  render: () => <Casestudies1 />,
+export const StoryCasestudies1: StoryObj = {
+  name: 'casestudies 1',
+  render: () => <Component0 />,
 };
 
-export const Casestudies4: StoryObj = {
-  name: 'Casestudies4',
-  render: () => <Casestudies4 />,
+export const StoryCasestudies4: StoryObj = {
+  name: 'casestudies 4',
+  render: () => <Component1 />,
 };
 
-export const Casestudies5: StoryObj = {
-  name: 'Casestudies5',
-  render: () => <Casestudies5 />,
+export const StoryCasestudies5: StoryObj = {
+  name: 'casestudies 5',
+  render: () => <Component2 />,
 };
 

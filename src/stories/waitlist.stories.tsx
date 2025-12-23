@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Waitlist2 from '@/components/blocks/waitlist/waitlist2';
-import Waitlist3 from '@/components/blocks/waitlist/waitlist3';
+import Component0 from '@/components/blocks/waitlist/waitlist2';
+import Component1 from '@/components/blocks/waitlist/waitlist3';
 
 const meta: Meta = {
   title: 'Blocks/Waitlist',
@@ -10,13 +10,13 @@ const meta: Meta = {
 
 export default meta;
 
-export const Waitlist2: StoryObj = {
-  name: 'Waitlist2',
-  render: () => <Waitlist2 />,
+export const StoryWaitlist2: StoryObj = {
+  name: 'waitlist 2',
+  render: () => <Component0 />,
 };
 
-export const Waitlist3: StoryObj = {
-  name: 'Waitlist3',
-  render: () => <Waitlist3 />,
+export const StoryWaitlist3: StoryObj = {
+  name: 'waitlist 3',
+  render: () => <Component1 />,
 };
 

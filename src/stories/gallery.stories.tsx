@@ -1,37 +1,37 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Gallery1 from '@/components/blocks/gallery/gallery1';
-import Gallery10 from '@/components/blocks/gallery/gallery10';
-import Gallery11 from '@/components/blocks/gallery/gallery11';
-import Gallery12 from '@/components/blocks/gallery/gallery12';
-import Gallery13 from '@/components/blocks/gallery/gallery13';
-import Gallery14 from '@/components/blocks/gallery/gallery14';
-import Gallery15 from '@/components/blocks/gallery/gallery15';
-import Gallery16 from '@/components/blocks/gallery/gallery16';
-import Gallery17 from '@/components/blocks/gallery/gallery17';
-import Gallery18 from '@/components/blocks/gallery/gallery18';
-import Gallery19 from '@/components/blocks/gallery/gallery19';
-import Gallery20 from '@/components/blocks/gallery/gallery20';
-import Gallery21 from '@/components/blocks/gallery/gallery21';
-import Gallery22 from '@/components/blocks/gallery/gallery22';
-import Gallery23 from '@/components/blocks/gallery/gallery23';
-import Gallery24 from '@/components/blocks/gallery/gallery24';
-import Gallery25 from '@/components/blocks/gallery/gallery25';
-import Gallery26 from '@/components/blocks/gallery/gallery26';
-import Gallery27 from '@/components/blocks/gallery/gallery27';
-import Gallery28 from '@/components/blocks/gallery/gallery28';
-import Gallery29 from '@/components/blocks/gallery/gallery29';
-import Gallery3 from '@/components/blocks/gallery/gallery3';
-import Gallery30 from '@/components/blocks/gallery/gallery30';
-import Gallery31 from '@/components/blocks/gallery/gallery31';
-import Gallery32 from '@/components/blocks/gallery/gallery32';
-import Gallery33 from '@/components/blocks/gallery/gallery33';
-import Gallery34 from '@/components/blocks/gallery/gallery34';
-import Gallery35 from '@/components/blocks/gallery/gallery35';
-import Gallery5 from '@/components/blocks/gallery/gallery5';
-import Gallery7 from '@/components/blocks/gallery/gallery7';
-import Gallery8 from '@/components/blocks/gallery/gallery8';
-import Gallery9 from '@/components/blocks/gallery/gallery9';
+import Component0 from '@/components/blocks/gallery/gallery1';
+import Component1 from '@/components/blocks/gallery/gallery10';
+import Component2 from '@/components/blocks/gallery/gallery11';
+import Component3 from '@/components/blocks/gallery/gallery12';
+import Component4 from '@/components/blocks/gallery/gallery13';
+import Component5 from '@/components/blocks/gallery/gallery14';
+import Component6 from '@/components/blocks/gallery/gallery15';
+import Component7 from '@/components/blocks/gallery/gallery16';
+import Component8 from '@/components/blocks/gallery/gallery17';
+import Component9 from '@/components/blocks/gallery/gallery18';
+import Component10 from '@/components/blocks/gallery/gallery19';
+import Component11 from '@/components/blocks/gallery/gallery20';
+import Component12 from '@/components/blocks/gallery/gallery21';
+import Component13 from '@/components/blocks/gallery/gallery22';
+import Component14 from '@/components/blocks/gallery/gallery23';
+import Component15 from '@/components/blocks/gallery/gallery24';
+import Component16 from '@/components/blocks/gallery/gallery25';
+import Component17 from '@/components/blocks/gallery/gallery26';
+import Component18 from '@/components/blocks/gallery/gallery27';
+import Component19 from '@/components/blocks/gallery/gallery28';
+import Component20 from '@/components/blocks/gallery/gallery29';
+import Component21 from '@/components/blocks/gallery/gallery3';
+import Component22 from '@/components/blocks/gallery/gallery30';
+import Component23 from '@/components/blocks/gallery/gallery31';
+import Component24 from '@/components/blocks/gallery/gallery32';
+import Component25 from '@/components/blocks/gallery/gallery33';
+import Component26 from '@/components/blocks/gallery/gallery34';
+import Component27 from '@/components/blocks/gallery/gallery35';
+import Component28 from '@/components/blocks/gallery/gallery5';
+import Component29 from '@/components/blocks/gallery/gallery7';
+import Component30 from '@/components/blocks/gallery/gallery8';
+import Component31 from '@/components/blocks/gallery/gallery9';
 
 const meta: Meta = {
   title: 'Blocks/Gallery',
@@ -40,163 +40,163 @@ const meta: Meta = {
 
 export default meta;
 
-export const Gallery1: StoryObj = {
-  name: 'Gallery1',
-  render: () => <Gallery1 />,
+export const StoryGallery1: StoryObj = {
+  name: 'gallery 1',
+  render: () => <Component0 />,
 };
 
-export const Gallery10: StoryObj = {
-  name: 'Gallery10',
-  render: () => <Gallery10 />,
+export const StoryGallery10: StoryObj = {
+  name: 'gallery 10',
+  render: () => <Component1 />,
 };
 
-export const Gallery11: StoryObj = {
-  name: 'Gallery11',
-  render: () => <Gallery11 />,
+export const StoryGallery11: StoryObj = {
+  name: 'gallery 11',
+  render: () => <Component2 />,
 };
 
-export const Gallery12: StoryObj = {
-  name: 'Gallery12',
-  render: () => <Gallery12 />,
+export const StoryGallery12: StoryObj = {
+  name: 'gallery 12',
+  render: () => <Component3 />,
 };
 
-export const Gallery13: StoryObj = {
-  name: 'Gallery13',
-  render: () => <Gallery13 />,
+export const StoryGallery13: StoryObj = {
+  name: 'gallery 13',
+  render: () => <Component4 />,
 };
 
-export const Gallery14: StoryObj = {
-  name: 'Gallery14',
-  render: () => <Gallery14 />,
+export const StoryGallery14: StoryObj = {
+  name: 'gallery 14',
+  render: () => <Component5 />,
 };
 
-export const Gallery15: StoryObj = {
-  name: 'Gallery15',
-  render: () => <Gallery15 />,
+export const StoryGallery15: StoryObj = {
+  name: 'gallery 15',
+  render: () => <Component6 />,
 };
 
-export const Gallery16: StoryObj = {
-  name: 'Gallery16',
-  render: () => <Gallery16 />,
+export const StoryGallery16: StoryObj = {
+  name: 'gallery 16',
+  render: () => <Component7 />,
 };
 
-export const Gallery17: StoryObj = {
-  name: 'Gallery17',
-  render: () => <Gallery17 />,
+export const StoryGallery17: StoryObj = {
+  name: 'gallery 17',
+  render: () => <Component8 />,
 };
 
-export const Gallery18: StoryObj = {
-  name: 'Gallery18',
-  render: () => <Gallery18 />,
+export const StoryGallery18: StoryObj = {
+  name: 'gallery 18',
+  render: () => <Component9 />,
 };
 
-export const Gallery19: StoryObj = {
-  name: 'Gallery19',
-  render: () => <Gallery19 />,
+export const StoryGallery19: StoryObj = {
+  name: 'gallery 19',
+  render: () => <Component10 />,
 };
 
-export const Gallery20: StoryObj = {
-  name: 'Gallery20',
-  render: () => <Gallery20 />,
+export const StoryGallery20: StoryObj = {
+  name: 'gallery 20',
+  render: () => <Component11 />,
 };
 
-export const Gallery21: StoryObj = {
-  name: 'Gallery21',
-  render: () => <Gallery21 />,
+export const StoryGallery21: StoryObj = {
+  name: 'gallery 21',
+  render: () => <Component12 />,
 };
 
-export const Gallery22: StoryObj = {
-  name: 'Gallery22',
-  render: () => <Gallery22 />,
+export const StoryGallery22: StoryObj = {
+  name: 'gallery 22',
+  render: () => <Component13 />,
 };
 
-export const Gallery23: StoryObj = {
-  name: 'Gallery23',
-  render: () => <Gallery23 />,
+export const StoryGallery23: StoryObj = {
+  name: 'gallery 23',
+  render: () => <Component14 />,
 };
 
-export const Gallery24: StoryObj = {
-  name: 'Gallery24',
-  render: () => <Gallery24 />,
+export const StoryGallery24: StoryObj = {
+  name: 'gallery 24',
+  render: () => <Component15 />,
 };
 
-export const Gallery25: StoryObj = {
-  name: 'Gallery25',
-  render: () => <Gallery25 />,
+export const StoryGallery25: StoryObj = {
+  name: 'gallery 25',
+  render: () => <Component16 />,
 };
 
-export const Gallery26: StoryObj = {
-  name: 'Gallery26',
-  render: () => <Gallery26 />,
+export const StoryGallery26: StoryObj = {
+  name: 'gallery 26',
+  render: () => <Component17 />,
 };
 
-export const Gallery27: StoryObj = {
-  name: 'Gallery27',
-  render: () => <Gallery27 />,
+export const StoryGallery27: StoryObj = {
+  name: 'gallery 27',
+  render: () => <Component18 />,
 };
 
-export const Gallery28: StoryObj = {
-  name: 'Gallery28',
-  render: () => <Gallery28 />,
+export const StoryGallery28: StoryObj = {
+  name: 'gallery 28',
+  render: () => <Component19 />,
 };
 
-export const Gallery29: StoryObj = {
-  name: 'Gallery29',
-  render: () => <Gallery29 />,
+export const StoryGallery29: StoryObj = {
+  name: 'gallery 29',
+  render: () => <Component20 />,
 };
 
-export const Gallery3: StoryObj = {
-  name: 'Gallery3',
-  render: () => <Gallery3 />,
+export const StoryGallery3: StoryObj = {
+  name: 'gallery 3',
+  render: () => <Component21 />,
 };
 
-export const Gallery30: StoryObj = {
-  name: 'Gallery30',
-  render: () => <Gallery30 />,
+export const StoryGallery30: StoryObj = {
+  name: 'gallery 30',
+  render: () => <Component22 />,
 };
 
-export const Gallery31: StoryObj = {
-  name: 'Gallery31',
-  render: () => <Gallery31 />,
+export const StoryGallery31: StoryObj = {
+  name: 'gallery 31',
+  render: () => <Component23 />,
 };
 
-export const Gallery32: StoryObj = {
-  name: 'Gallery32',
-  render: () => <Gallery32 />,
+export const StoryGallery32: StoryObj = {
+  name: 'gallery 32',
+  render: () => <Component24 />,
 };
 
-export const Gallery33: StoryObj = {
-  name: 'Gallery33',
-  render: () => <Gallery33 />,
+export const StoryGallery33: StoryObj = {
+  name: 'gallery 33',
+  render: () => <Component25 />,
 };
 
-export const Gallery34: StoryObj = {
-  name: 'Gallery34',
-  render: () => <Gallery34 />,
+export const StoryGallery34: StoryObj = {
+  name: 'gallery 34',
+  render: () => <Component26 />,
 };
 
-export const Gallery35: StoryObj = {
-  name: 'Gallery35',
-  render: () => <Gallery35 />,
+export const StoryGallery35: StoryObj = {
+  name: 'gallery 35',
+  render: () => <Component27 />,
 };
 
-export const Gallery5: StoryObj = {
-  name: 'Gallery5',
-  render: () => <Gallery5 />,
+export const StoryGallery5: StoryObj = {
+  name: 'gallery 5',
+  render: () => <Component28 />,
 };
 
-export const Gallery7: StoryObj = {
-  name: 'Gallery7',
-  render: () => <Gallery7 />,
+export const StoryGallery7: StoryObj = {
+  name: 'gallery 7',
+  render: () => <Component29 />,
 };
 
-export const Gallery8: StoryObj = {
-  name: 'Gallery8',
-  render: () => <Gallery8 />,
+export const StoryGallery8: StoryObj = {
+  name: 'gallery 8',
+  render: () => <Component30 />,
 };
 
-export const Gallery9: StoryObj = {
-  name: 'Gallery9',
-  render: () => <Gallery9 />,
+export const StoryGallery9: StoryObj = {
+  name: 'gallery 9',
+  render: () => <Component31 />,
 };
 

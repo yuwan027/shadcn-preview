@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import ProductDetail1 from '@/components/blocks/product-detail/product-detail1';
-import ProductDetail10 from '@/components/blocks/product-detail/product-detail10';
-import ProductDetail2 from '@/components/blocks/product-detail/product-detail2';
-import ProductDetail3 from '@/components/blocks/product-detail/product-detail3';
-import ProductDetail4 from '@/components/blocks/product-detail/product-detail4';
-import ProductDetail5 from '@/components/blocks/product-detail/product-detail5';
-import ProductDetail6 from '@/components/blocks/product-detail/product-detail6';
-import ProductDetail7 from '@/components/blocks/product-detail/product-detail7';
-import ProductDetail8 from '@/components/blocks/product-detail/product-detail8';
-import ProductDetail9 from '@/components/blocks/product-detail/product-detail9';
+import Component0 from '@/components/blocks/product-detail/product-detail1';
+import Component1 from '@/components/blocks/product-detail/product-detail10';
+import Component2 from '@/components/blocks/product-detail/product-detail2';
+import Component3 from '@/components/blocks/product-detail/product-detail3';
+import Component4 from '@/components/blocks/product-detail/product-detail4';
+import Component5 from '@/components/blocks/product-detail/product-detail5';
+import Component6 from '@/components/blocks/product-detail/product-detail6';
+import Component7 from '@/components/blocks/product-detail/product-detail7';
+import Component8 from '@/components/blocks/product-detail/product-detail8';
+import Component9 from '@/components/blocks/product-detail/product-detail9';
 
 const meta: Meta = {
   title: 'Blocks/Product Detail',
@@ -18,53 +18,53 @@ const meta: Meta = {
 
 export default meta;
 
-export const ProductDetail1: StoryObj = {
-  name: 'Product Detail1',
-  render: () => <ProductDetail1 />,
+export const StoryProductDetail1: StoryObj = {
+  name: 'product detail 1',
+  render: () => <Component0 />,
 };
 
-export const ProductDetail10: StoryObj = {
-  name: 'Product Detail10',
-  render: () => <ProductDetail10 />,
+export const StoryProductDetail10: StoryObj = {
+  name: 'product detail 10',
+  render: () => <Component1 />,
 };
 
-export const ProductDetail2: StoryObj = {
-  name: 'Product Detail2',
-  render: () => <ProductDetail2 />,
+export const StoryProductDetail2: StoryObj = {
+  name: 'product detail 2',
+  render: () => <Component2 />,
 };
 
-export const ProductDetail3: StoryObj = {
-  name: 'Product Detail3',
-  render: () => <ProductDetail3 />,
+export const StoryProductDetail3: StoryObj = {
+  name: 'product detail 3',
+  render: () => <Component3 />,
 };
 
-export const ProductDetail4: StoryObj = {
-  name: 'Product Detail4',
-  render: () => <ProductDetail4 />,
+export const StoryProductDetail4: StoryObj = {
+  name: 'product detail 4',
+  render: () => <Component4 />,
 };
 
-export const ProductDetail5: StoryObj = {
-  name: 'Product Detail5',
-  render: () => <ProductDetail5 />,
+export const StoryProductDetail5: StoryObj = {
+  name: 'product detail 5',
+  render: () => <Component5 />,
 };
 
-export const ProductDetail6: StoryObj = {
-  name: 'Product Detail6',
-  render: () => <ProductDetail6 />,
+export const StoryProductDetail6: StoryObj = {
+  name: 'product detail 6',
+  render: () => <Component6 />,
 };
 
-export const ProductDetail7: StoryObj = {
-  name: 'Product Detail7',
-  render: () => <ProductDetail7 />,
+export const StoryProductDetail7: StoryObj = {
+  name: 'product detail 7',
+  render: () => <Component7 />,
 };
 
-export const ProductDetail8: StoryObj = {
-  name: 'Product Detail8',
-  render: () => <ProductDetail8 />,
+export const StoryProductDetail8: StoryObj = {
+  name: 'product detail 8',
+  render: () => <Component8 />,
 };
 
-export const ProductDetail9: StoryObj = {
-  name: 'Product Detail9',
-  render: () => <ProductDetail9 />,
+export const StoryProductDetail9: StoryObj = {
+  name: 'product detail 9',
+  render: () => <Component9 />,
 };
 
