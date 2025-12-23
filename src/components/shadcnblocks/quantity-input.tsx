@@ -10,3 +10,4 @@ export const QuantityInput = ({ value = 1, onChange, min = 1, max = 99, classNam
     <Button variant="outline" size="icon" onClick={() => onChange?.(Math.min(max, value + 1))}><Plus className="h-4 w-4" /></Button>
   </div>
 );
+export default QuantityInput;

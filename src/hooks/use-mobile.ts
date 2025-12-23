@@ -4,4 +4,5 @@ export function useMobile() {
   useEffect(() => { setIsMobile(window.innerWidth < 768); }, []);
   return isMobile;
 }
+export const useIsMobile = useMobile;
 export default useMobile;
