@@ -61,7 +61,7 @@ const Industries4 = ({
   };
 
   return (
-    <section className="py-32">
+    <section className="py-16 md:py-24">
       <div className="container">
         {/* Heading */}
         <div className="mb-12">
@@ -122,7 +122,8 @@ const Industries4 = ({
               }`}
               onMouseEnter={() => handleContractorHover(contractor.id)}
             >
-              <div className="flex h-full min-w-0 flex-col justify-between gap-8 p-6 bg-background">
+              <div className="flex h-full min-w-0 flex-col justify-between gap-8 p-6">
+                {/* Logo */}
                 <div className="flex h-14 w-32 items-center">
                   <span className="text-xl font-semibold">
                     {contractor.category}

@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import Component0 from '@/components/blocks/resource/resource3';
+import Component1 from '@/components/blocks/resource/resource2';
 
 const meta: Meta = {
   title: 'Blocks/Resource',
@@ -14,3 +15,7 @@ export const StoryResource3: StoryObj = {
   render: () => <Component0 />,
 };
 
+export const StoryResource2: StoryObj = {
+  name: 'resource 2',
+  render: () => <Component1 />,
+};

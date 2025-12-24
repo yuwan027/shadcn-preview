@@ -53,7 +53,7 @@ const Industries3 = ({
   ],
 }: Industries3Props) => {
   return (
-    <section className="py-32">
+    <section className="bg-muted min-h-screen py-16">
       <div className="container mx-auto flex flex-col gap-8 px-8">
         {/* Header Row */}
         <div className="text-muted-foreground grid grid-cols-2 gap-8 font-medium md:grid-cols-3">

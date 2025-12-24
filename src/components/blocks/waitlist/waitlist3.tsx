@@ -20,7 +20,7 @@ const Waitlist3 = ({
   image = "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/photos/Geometric Staircase and Concrete Wall.jpeg",
 }) => {
   return (
-    <section className="py-32">
+    <section className="py-32 lg:h-screen">
       <div className="container h-full">
         <div className="grid h-full grid-cols-1 gap-20 lg:grid-cols-2 lg:gap-0">
           <div className="col-span-1 flex h-full flex-col items-start justify-between gap-20">
